@@ -1,0 +1,121 @@
+
+<div id = "view-settings" class = "page-container">
+	<div data-left-menu>
+		<ul>
+			<li><a href = "#/patients" class = "icon-patient">{{labels.Patient}}</a></li>
+			<li><a href = "#/request" class = "icon-request">{{labels.Request}}</a></li>
+			<li><a href = "#/processing" class = "icon-processing">{{labels.Processing}}</a></li>
+			<li><a href = "" class = "icon-settings actived">{{labels.Settings}}</a></li>
+			<li><a href = "" class = "icon-signout" ng-click = "signOut()">{{labels.Sign_Out}}</a></li>
+			<li data-mobile-only></li>
+		</ul>
+	</div>
+	
+	<div data-role = "page">
+		<div class = "page-wrapper">
+			<div class = "page-subject">
+				{{labels.Settings}}
+				<div class = "control-bar">
+					<a href = "" class = "btn-light-gray">{{labels.Save}}</a>
+				</div>
+			</div>
+			<div class = "page-content">
+				<div class = "page-form col-lg-12">
+					<label class = "form-label">{{labels.System_Information}}</label>
+					<fieldset class = "col-lg-12">
+						<div>
+							<li>
+								<label for = "id_Language" class = "control-label col-4">{{labels.Language}}</label>			
+								<select type = "text" id = "id_Language" ng-model = "val_Language" class = "form-control col-8">
+									<option value = "en" selected>English</option>
+									<option value = "de">Dutch</option>
+								</select>
+								<div class = "clear"></div>
+							</li>
+						</div>
+					</fieldset>
+				</div>
+				<div class = "page-form col-lg-12">
+					<label class = "form-label">{{labels.Prescriber_Information}}</label>
+					<fieldset class = "col-lg-12">
+						<div>
+							<li>
+								<label for = "presName" class = "control-label col-4">{{labels.Name}}</label>			
+								<input type = "text" class = "form-control col-8" id = "presName" ng-model = "presName"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "presFirstName" class = "control-label col-4">{{labels.FirstName}}</label>
+								<input type = "text" class = "form-control col-8" id = "presFirstName" ng-model = "presFirstName"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "presRIZIV" class = "control-label col-4">{{labels.RIZIV}}</label>			
+								<input type = "text" class = "form-control col-8" id = "presRIZIV" ng-model = "presRIZIV"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "presOur_Reference" class = "control-label col-4">{{labels.Our_Reference}}</label>	
+								<input type = "text" class = "form-control col-8" id = "presOur_Reference" ng-model = "presOur_Reference"/>
+								<div class = "clear"></div>
+							</li>
+						</div>
+					</fieldset>
+					<fieldset class = "col-lg-12">
+						<legend>{{labels.Address}}</legend>
+						<div>
+							<li>
+								<label for = "presStreet" class = "control-label col-4">{{labels.Street}}</label>	
+								<input type = "text" class = "form-control col-8" id = "presStreet" ng-model = "presStreet"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "presZip" class = "control-label col-4">{{labels.Zip}}</label>	
+								<input type = "text" class = "form-control col-8" id = "presZip" ng-model = "presZip"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "presCity" class = "control-label col-4">{{labels.City}}</label>	
+								<input type = "text" class = "form-control col-8" id = "presCity" ng-model = "presCity"/>
+								<div class = "clear"></div>
+							</li>
+						</div>
+					</fieldset>
+					<fieldset class = "col-lg-12">
+						<legend>{{labels.Contact_Infomation}}</legend>
+						<div>
+							<li>
+								<label for = "presPhone" class = "control-label col-4">{{labels.Phone}}</label>	
+								<input type = "tel" class = "form-control col-spacing-8" id = "presPhone" ng-model = "presPhone"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "presMobile" class = "control-label col-4">{{labels.Mobile}}</label>	
+								<input type = "tel" class = "form-control col-8" id = "presMobile" ng-model = "presMobile"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "presEmail" class = "control-label col-4">{{labels.eMail}}</label>	
+								<input type = "email" class = "form-control col-8" id = "presEmail" ng-model = "presEmail"/>
+								<div class = "clear"></div>
+							</li>
+						</div>
+					</fieldset>					
+					<fieldset class = "col-lg-12">
+						<legend>{{labels.Sub_Accounts}}</legend>
+						<ul class = "list-content-m">
+							<li ng-repeat = "c in patClinicals">
+								<input type = "text" value = "{{c}}" class = "col-full-left" readonly/>
+								<a class = "col-control icon-trash" ng-click = "deleteClinical($index)"></a>
+							</li>
+							<li>
+								<a class = "col-control icon-new" ng-click = "addClinical()"></a>
+							</li>
+						</ul>
+					</fieldset>
+					<div class = "clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

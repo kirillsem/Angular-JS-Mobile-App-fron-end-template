@@ -1,0 +1,81 @@
+{
+	"Settings": {
+		"AppUser": {
+			"Authorisation": {
+				"uName": "athire",
+				"uPsw": "goldor"
+			}
+		},
+		"Prescriber": {
+			"presName": "Thire",
+			"presFirstName": "Alain",
+			"presTitle": "Drs.",
+			"presType": "MD",
+			"presRegNumber": "BE1234567",
+			"presLng": "NL",
+			"Practice": [{
+				"practOrganisation": "Private Practice",
+				"practIntRef": "100",
+				"Adress": {
+					"adrStreet": "Opvelpsestraat 11",
+					"adrZip": "3360",
+					"adrCity": "Bierbeek",
+					"adrCountry": "Belgium"
+				}
+			},
+			{
+				"practOrganisation": "Joined practice",
+				"practIntRef": "101",
+				"Adress": {
+					"adrStreet": "Kwakkelberg 1",
+					"adrZip": "3000",
+					"adrCity": "Bierbeek",
+					"adrCountry": "Belgium"
+				}
+			}]
+		},
+		"Providers": {
+			"Provider": [{
+				"provOrganisation": "MEDINA",
+				"provUrl": "service.medina.be",
+				"provPort": "66",
+				"Authorisation": {
+					"uName": "ath",
+					"uPsw": "athPsw"
+				}
+			},
+			{
+				"provOrganisation": "CMA",
+				"provUrl": "service.cma.be",
+				"provPort": "33"
+			}]
+		},
+		"Registry": {
+			"RegistryEntry": [{
+				"parClass": "Practice",
+				"parKeyWord": "DefaultPractice",
+				"parValue": "Private Practice"
+			},
+			{
+     				"parClass": "Provider",
+				"parKeyWord": "DefaultProvider",
+				"parValue": "MEDINA"
+			},
+			{
+				"parClass": "Provider",
+				"parKeyWord": "DefaultProvider",
+				"parValue": "Private Practice"
+			},
+			{
+				"parClass": "Request",
+				"parKeyWord": "PrintRequest",
+				"parValue": "YES"
+			},
+			{
+				"parClass": "Request",
+				"parKeyWord": "LocalRequestSize",
+				"parValue": "100"
+			}]
+		}
+	}
+}

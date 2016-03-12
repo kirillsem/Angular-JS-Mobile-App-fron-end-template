@@ -1,0 +1,25 @@
+
+<div id = "view-signin" class = "page-container">
+
+	<div data-role = "page">
+		<div class = "page-form">
+			<li class = "col-lg-12">
+				<img src = "./imgs/logo.png" class = "logo"/>
+				<div class = "clear"></div>
+			</li>
+			<li class = "col-lg-12">
+				<input type = "text" class = "form-control" ng-model = "UserName" placeholder = "{{labels.UserName}}" ng-keyup = "enterUserName($event)" ng-focus = "focusUserName"/>
+				<div class = "clear"></div>
+			</li>
+			<li class = "col-lg-12">
+				<input type = "password" class = "form-control" ng-model = "Password" placeholder = "{{labels.Password}}" ng-keyup = "enterPassword($event)" ng-focus = "focusPassword"/>
+				<div class = "clear"></div>
+			</li>
+			<li class = "col-lg-12">
+				<a class = "btn btn-default" ng-click = "SignIn()">{{labels.Signin}}</a>
+				<div class = "clear"></div>
+			</li>
+		</div>
+	</div>
+
+</div>

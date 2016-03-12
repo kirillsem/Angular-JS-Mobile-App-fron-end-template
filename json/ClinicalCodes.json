@@ -1,0 +1,52 @@
+{
+	"ClinicalCodes": [
+		{
+			"cliCode": 9122,
+			"cliDsc": "Zorgtraject"
+		},
+		{
+			"cliCode": 9126,
+			"cliDsc": "Diabetes"
+		},
+		{
+			"cliCode": 9125,
+			"cliDsc": "Nierinsufficiënt"
+		},
+		{
+			"cliCode": 9123,
+			"cliDsc": "Cholest. ter."
+		},
+		{
+			"cliCode": 9127,
+			"cliDsc": "Niet Nuchter"
+		},
+		{
+			"cliCode": 9131,
+			"cliDsc": "Pre-operatief"
+		},
+		{
+			"cliCode": 9132,
+			"cliDsc": "Hypothyreose"
+		},
+		{
+			"cliCode": 9130,
+			"cliDsc": "Hyperthyreose"
+		},
+		{
+			"cliCode": 9119,
+			"cliDsc": "Orale antistolling"
+		},
+		{
+			"cliCode": 9121,
+			"cliDsc": "DVT-longembool"
+		},
+		{
+			"cliCode": 9120,
+			"cliDsc": "Zwanger"
+		},
+		{
+			"cliCode": 9121,
+			"cliDsc": "Chemotherapie"
+		}
+	]
+}

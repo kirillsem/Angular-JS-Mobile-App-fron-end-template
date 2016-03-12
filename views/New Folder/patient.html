@@ -1,0 +1,145 @@
+
+<div id = "view-patient" class = "page-container" ng-init = "$parent.openLeftMenu = false">
+	<div data-left-menu>
+		<ul>
+			<li><a href = "" class = "icon-patient actived">{{labels.Patient}}</a></li>
+			<li><a href = "#/request" class = "icon-request">{{labels.Request}}</a></li>
+			<li><a href = "#/processing" class = "icon-processing">{{labels.Processing}}</a></li>
+			<li><a href = "#/settings" class = "icon-settings">{{labels.Settings}}</a></li>
+			<li><a href = "" class = "icon-signout" ng-click = "signOut()">{{labels.Sign_Out}}</a></li>
+			<li data-mobile-only></li>
+		</ul>
+	</div>
+	
+	<div data-role = "page">
+		<div class = "page-wrapper">
+			<div class = "page-subject">
+				{{labels.Patient}}
+				<div class = "control-bar">
+					<a href = "#/patients" class = "btn-light-blue">{{labels.Cancel}}</a>
+					<a class = "btn-light-gray" ng-click = "newPatient()" ng-if = "!patientInfo">{{labels.Save}}</a>
+					<a class = "btn-light-gray" ng-click = "updatePatient()" ng-if = "patientInfo">{{labels.Save}}</a>
+					<a class = "btn-light-red" ng-click = "deletePatient()" ng-if = "patientInfo">{{labels.Delete}}</a>
+				</div>
+			</div>
+			<div class = "page-content">
+				<div class = "page-form col-lg-6">
+					<label class = "form-label">{{labels.Patient_Information}}</label>
+					<fieldset class = "col-lg-12">
+						<div>
+							<li>
+								<label for = "patName" class = "control-label col-4">{{labels.Name}}</label>			
+								<input type = "text" class = "form-control col-8" id = "patName" ng-model = "patName"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "patFirstName" class = "control-label col-4">{{labels.FirstName}}</label>
+								<input type = "text" class = "form-control col-8" id = "patFirstName" ng-model = "patFirstName"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "patRRN" class = "control-label col-4">{{labels.RRN}}</label>			
+								<input type = "text" class = "form-control col-8" id = "patRRN" ng-model = "patRRN"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "patSocial_Sec_Number" class = "control-label col-4">{{labels.Social_Sec_Number}}</label>	
+								<input type = "text" class = "form-control col-8" id = "patSocial_Sec_Number" ng-model = "patSocial_Sec_Number"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "patGender" class = "control-label col-4">{{labels.Gender}}</label>		
+								<div class = "btn-group col-8" id = "patGender">
+									<label class = "btn btn-default" ng-model = "patGender" btn-radio = "'M'">{{labels.M}}</label>
+									<label class = "btn btn-default" ng-model = "patGender" btn-radio = "'F'">{{labels.F}}</label>
+								</div>
+								<div class = "clear"></div>
+							</li>
+							<li data-mobile-only>
+								<label for = "patBirthday_M" class = "control-label col-4">{{labels.Birthday}}</label>	
+								<input type = "date" class = "form-control col-8" id = "patBirthday_M" ng-model = "patBirthday_M"/>
+								<div class = "clear"></div>
+							</li>					
+							<li data-pc-only><!--  -->
+								<label for = "patBirthday" class = "control-label col-4">{{labels.Birthday}}</label>	
+								<p class = "input-group col-8">
+									<input type = "text" class = "form-control" datepicker-popup = "dd/MM/yyyy" is-open = "opened_patBirthday" datepicker-options = "dateOptions_patBirthday" id = "patBirthday" ng-model = "patBirthday"/>
+									<span class = "input-group-btn">
+										<button type = "button" class = "btn btn-default btn-datepicker" ng-click = "open_patBirthday($event)"><i class = "glyphicon glyphicon-calendar"></i></button>
+									</span>
+								</p>
+								<div class = "clear"></div>
+							</li><!--  -->
+						</div>
+					</fieldset>
+					<fieldset class = "col-lg-12">
+						<legend>{{labels.Address}}</legend>
+						<div>
+							<li>
+								<label for = "patStreet" class = "control-label col-4">{{labels.Street}}</label>	
+								<input type = "text" class = "form-control col-8" id = "patStreet" ng-model = "patStreet"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "patZip" class = "control-label col-4">{{labels.Zip}}</label>	
+								<input type = "text" class = "form-control col-8" id = "patZip" ng-model = "patZip"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "patCity" class = "control-label col-4">{{labels.City}}</label>	
+								<input type = "text" class = "form-control col-8" id = "patCity" ng-model = "patCity"/>
+								<div class = "clear"></div>
+							</li>
+						</div>
+					</fieldset>
+					<fieldset class = "col-lg-12">
+						<legend>{{labels.Contact_Infomation}}</legend>
+						<div>
+							<li>
+								<label for = "patPhone" class = "control-label col-4">{{labels.Phone}}</label>	
+								<input type = "tel" class = "form-control col-spacing-8" id = "patPhone" ng-model = "patPhone"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "patMobile" class = "control-label col-4">{{labels.Mobile}}</label>	
+								<input type = "tel" class = "form-control col-8" id = "patMobile" ng-model = "patMobile"/>
+								<div class = "clear"></div>
+							</li>
+							<li>
+								<label for = "patEmail" class = "control-label col-4">{{labels.eMail}}</label>	
+								<input type = "email" class = "form-control col-8" id = "patEmail" ng-model = "patEmail"/>
+								<div class = "clear"></div>
+							</li>
+						</div>
+					</fieldset>
+					<div class = "clear"></div>
+				</div>
+				<div class = "page-form col-lg-6">
+					<label class = "form-label">{{labels.Clinical_Information}}</label>
+					<fieldset class = "col-lg-12">
+						<ul class = "list-content">
+							<li ng-repeat = "c in patClinicals">
+								<input type = "text" value = "{{c}}" class = "col-full-left" readonly/>
+								<a class = "col-control icon-trash" ng-click = "deleteClinical($index)"></a>
+							</li>
+							<li>
+								<input type = "text" class = "col-full-left element-new" ng-model = "newClinical"/>
+								<a class = "col-control icon-new" ng-click = "addClinical()"></a>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class = "col-lg-12">
+						<legend>{{labels.Addtional_Remarks}}</legend>
+						<div>
+							<li>
+								<textarea rows = 5 class = "form-control col-lg-12" ng-model = "patAddtionalRemarks"></textarea>
+								<div class = "clear"></div>
+							</li>
+						</div>
+					</fieldset>
+					<div class = "clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

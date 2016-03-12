@@ -1,0 +1,5729 @@
+{
+	"Daf":
+	{
+		"Chapters":
+		{
+
+			"Chapter": [ 			{
+				"ChapterDescription": "Hemato-Serologie",
+				"Parts":
+				{
+
+					"Part": [ 					{
+						"PartDescription": "Hematologie",
+						"Groups":
+						{
+
+							"Group": [ 							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Bezinking",
+										"PaymentType": "MUT",
+										"Code": 100,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "RBC + Hematocriet",
+										"PaymentType": "MUT",
+										"Code": 103,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Hemoglobine",
+										"PaymentType": "MUT",
+										"Code": 1015,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "WBC",
+										"PaymentType": "MUT",
+										"Code": 1080,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "WBC Formule",
+										"PaymentType": "MUT",
+										"Code": 106,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Trombocyten",
+										"PaymentType": "MUT",
+										"Code": 1132,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Reticulocyten",
+										"PaymentType": "MUT",
+										"Code": 1130,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Anemie",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Ferritine",
+										"PaymentType": "MUT",
+										"Code": 2390,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Transferrine",
+										"PaymentType": "MUT",
+										"Code": 2605,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "IJzer",
+										"PaymentType": "MUT",
+										"Code": 2385,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vit.B12",
+										"PaymentType": "MUT",
+										"Code": 1180,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Foliumzuur",
+										"PaymentType": "MUT",
+										"Code": 1185,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Foliumzuur RBC",
+										"PaymentType": "MUT",
+										"Code": 1187,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Hb-elektroforese",
+										"PaymentType": "MUT",
+										"Code": 102,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Glucose-6-P-dehydrogenase",
+										"PaymentType": "MUT",
+										"Code": 1195,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "T-(CD4/CD8), B- en NK-lymfocyten ",
+										"PaymentType": "MUT",
+										"Code": 655,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Immunofenotypering",
+										"PaymentType": "MUT",
+										"Code": 1396,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Parasieten",
+								"Codes":
+								{
+									"Code":
+									{
+										"CodingSystem": "CMA",
+										"Matrix": "DD+E",
+										"Description": "Malaria",
+										"PaymentType": "MUT",
+										"Code": 1868,
+										"Price": ""
+									}
+								}
+							}, 							{
+								"GroupDescription": "Immunohematologie",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S+E",
+										"Description": "Bloedgroep ABO + RhD",
+										"PaymentType": "MUT",
+										"Code": 107,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S+E",
+										"Description": "Rh-subgroepen CcEe,Kell",
+										"PaymentType": "MUT",
+										"Code": 1310,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S+E",
+										"Description": "Directe antiglobulinetest",
+										"PaymentType": "MUT",
+										"Code": 1365,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S+E",
+										"Description": "Onregelm. Antilichamen",
+										"PaymentType": "MUT",
+										"Code": 1367,
+										"Price": ""
+									} ]
+								}
+							} ]
+						}
+					}, 					{
+						"PartDescription": "Hemostase",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "C",
+										"Description": "PT (Quick) + INR Orale antistolling",
+										"PaymentType": "MUT",
+										"Code": 110,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "C",
+										"Description": "PT (Quick) + INR Screening",
+										"PaymentType": "MUT",
+										"Code": 1517,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "C",
+										"Description": "Fibrinogeen",
+										"PaymentType": "MUT",
+										"Code": 1540,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "C",
+										"Description": "D-dimeren",
+										"PaymentType": "PAT",
+										"Code": 1547,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Homocyste�ne (nuchter) Vasc.aand. <55j.",
+										"PaymentType": "MUT",
+										"Code": 1560,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Homocyste�ne (nuchter)",
+										"PaymentType": "PAT",
+										"Code": 1593,
+										"Price": ""
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "Auto-immuniteit",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Rheuma factor",
+										"PaymentType": "MUT",
+										"Code": 1708,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CCP AL Diagnose RA (1x/kal.j.)",
+										"PaymentType": "MUT",
+										"Code": 1785,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CCP AL",
+										"PaymentType": "PAT",
+										"Code": 1777,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "ANA (ANF), Antinucleaire AL",
+										"PaymentType": "MUT",
+										"Code": 1746,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Anti-DNA",
+										"PaymentType": "MUT",
+										"Code": 1749,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Anti-ENA",
+										"PaymentType": "MUT",
+										"Code": 1750,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "ANCA",
+										"PaymentType": "MUT",
+										"Code": 1767,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "MPO",
+										"PaymentType": "MUT",
+										"Code": 1796,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "PR3",
+										"PaymentType": "MUT",
+										"Code": 1797,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "ACE",
+										"PaymentType": "MUT",
+										"Code": 3420,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Anti-Gliadine(gedeamid.) IgA",
+										"PaymentType": "MUT",
+										"Code": 2973,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Anti-Gliadine(gedeamid.) IgG",
+										"PaymentType": "MUT",
+										"Code": 2974,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Tissue transglutaminase IgA",
+										"PaymentType": "MUT",
+										"Code": 1742,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "HLA B27",
+										"PaymentType": "PAT",
+										"Code": 1715,
+										"Price": ""
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "Serologie",
+						"Groups":
+						{
+
+							"Group": [ 							{
+								"GroupDescription": "Parasitair",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Toxoplasma IgG",
+										"PaymentType": "MUT",
+										"Code": 1894,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Toxoplasma IgM",
+										"PaymentType": "MUT",
+										"Code": 1896,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Viraal",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Rubella IgG",
+										"PaymentType": "MUT",
+										"Code": 1930,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Rubella IgM",
+										"PaymentType": "MUT",
+										"Code": 1932,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Parvovirus B19 IgG",
+										"PaymentType": "MUT",
+										"Code": 2130,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Parvovirus B19 IgM",
+										"PaymentType": "MUT",
+										"Code": 2131,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cytomegalie IgG",
+										"PaymentType": "MUT",
+										"Code": 1933,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cytomegalie IgM",
+										"PaymentType": "MUT",
+										"Code": 1935,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Varicella-zoster IgG",
+										"PaymentType": "MUT",
+										"Code": 2015,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Varicella-zoster IgM",
+										"PaymentType": "MUT",
+										"Code": 2016,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Herpes simplex IgG",
+										"PaymentType": "MUT",
+										"Code": 1959,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Herpes simplex IgM",
+										"PaymentType": "MUT",
+										"Code": 1962,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bof IgG",
+										"PaymentType": "MUT",
+										"Code": 1957,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bof IgM",
+										"PaymentType": "MUT",
+										"Code": 1956,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "RSV IgG",
+										"PaymentType": "MUT",
+										"Code": 2095,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "RSV IgM",
+										"PaymentType": "MUT",
+										"Code": 2096,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Paul en Bunnell",
+										"PaymentType": "MUT",
+										"Code": 1890,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Epstein-Barr IgG",
+										"PaymentType": "MUT",
+										"Code": 2042,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Epstein-Barr IgM",
+										"PaymentType": "MUT",
+										"Code": 2040,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "HIV1/2 AL",
+										"PaymentType": "MUT",
+										"Code": 2018,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "HIV1/2 p24 Ag",
+										"PaymentType": "MUT",
+										"Code": 2020,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hep. A totaal",
+										"PaymentType": "MUT",
+										"Code": 2069,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hep. A IgM",
+										"PaymentType": "MUT",
+										"Code": 2072,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hep. Bs(surface) Ag",
+										"PaymentType": "MUT",
+										"Code": 2060,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hep. Bs(surface) AL",
+										"PaymentType": "MUT",
+										"Code": 2063,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hep. Bc(core) AL",
+										"PaymentType": "MUT",
+										"Code": 2066,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hep. Be Ag",
+										"PaymentType": "MUT",
+										"Code": 2067,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hep. Be AL",
+										"PaymentType": "MUT",
+										"Code": 2068,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hep. C AL",
+										"PaymentType": "MUT",
+										"Code": 2070,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Bacterieel",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "ASLO",
+										"PaymentType": "MUT",
+										"Code": 1775,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "VDRL",
+										"PaymentType": "MUT",
+										"Code": 1794,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Treponema pallidum AL",
+										"PaymentType": "MUT",
+										"Code": 1790,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Brucella AL (Wright)",
+										"PaymentType": "MUT",
+										"Code": 1814,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "H. pylori IgG (1ste diagnose)",
+										"PaymentType": "MUT",
+										"Code": 1828,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "H. pylori IgG ",
+										"PaymentType": "PAT",
+										"Code": 1834,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bor. burgd.(Lyme) IgG",
+										"PaymentType": "MUT",
+										"Code": 1843,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bor. burgd.(Lyme) IgM",
+										"PaymentType": "MUT",
+										"Code": 1845,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Mycoplasma pn. IgG",
+										"PaymentType": "MUT",
+										"Code": 2004,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Mycoplasma pn. IgM",
+										"PaymentType": "MUT",
+										"Code": 2003,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Chlamydia pneum. IgG",
+										"PaymentType": "MUT",
+										"Code": 2038,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Chlamydia pneum. IgM",
+										"PaymentType": "MUT",
+										"Code": 2009,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Chlamydia trachomatis IgA ",
+										"PaymentType": "MUT",
+										"Code": 2010,
+										"Price": ""
+									} ]
+								}
+							} ]
+						}
+					} ]
+				}
+			}, 			{
+				"ChapterDescription": "Biochemie",
+				"Parts":
+				{
+					"Part":
+					{
+						"PartDescription": "Biochemie",
+						"Groups":
+						{
+
+							"Group": [ 							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Ureum",
+										"PaymentType": "MUT",
+										"Code": 2340,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Creatinine",
+										"PaymentType": "MUT",
+										"Code": 2345,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Urinezuur",
+										"PaymentType": "MUT",
+										"Code": 2360,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Natrium",
+										"PaymentType": "MUT",
+										"Code": 3430,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Kalium",
+										"PaymentType": "MUT",
+										"Code": 3432,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Chloride",
+										"PaymentType": "MUT",
+										"Code": 3435,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bicarbonaat",
+										"PaymentType": "MUT",
+										"Code": 3440,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Calcium",
+										"PaymentType": "MUT",
+										"Code": 3455,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Fosfor",
+										"PaymentType": "MUT",
+										"Code": 3460,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Magnesium",
+										"PaymentType": "MUT",
+										"Code": 3465,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "H of E",
+										"Description": "Magnesium RBC",
+										"PaymentType": "MUT",
+										"Code": 3467,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Osmolaliteit",
+										"PaymentType": "MUT",
+										"Code": 3450,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Zink",
+										"PaymentType": "MUT",
+										"Code": 4945,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Koper",
+										"PaymentType": "MUT",
+										"Code": 4924,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Selenium",
+										"PaymentType": "PAT",
+										"Code": 4936,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Eiwit",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Totaal eiwit",
+										"PaymentType": "MUT",
+										"Code": 2405,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Eiwitelektroforese",
+										"PaymentType": "MUT",
+										"Code": 120,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Albumine",
+										"PaymentType": "MUT",
+										"Code": 2572,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Immunofixatie",
+										"PaymentType": "MUT",
+										"Code": 142,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CRP",
+										"PaymentType": "MUT",
+										"Code": 1705,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "IgA",
+										"PaymentType": "MUT",
+										"Code": 2614,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "IgG",
+										"PaymentType": "MUT",
+										"Code": 2617,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "IgM",
+										"PaymentType": "MUT",
+										"Code": 2620,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Haptoglobine",
+										"PaymentType": "MUT",
+										"Code": 2584,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "C3",
+										"PaymentType": "MUT",
+										"Code": 2596,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "C4",
+										"PaymentType": "MUT",
+										"Code": 2599,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "α-1-antitrypsine",
+										"PaymentType": "MUT",
+										"Code": 2575,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Lipiden",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cholesterol",
+										"PaymentType": "MUT",
+										"Code": 3107,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Triglyceriden",
+										"PaymentType": "MUT",
+										"Code": 3110,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "HDL-cholesterol",
+										"PaymentType": "MUT",
+										"Code": 3140,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "LDL-cholesterol (berekend)",
+										"PaymentType": "MUT",
+										"Code": 3142,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "LDL-cholesterol (chol.↓ medic.))",
+										"PaymentType": "MUT",
+										"Code": 3143,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Lp (a)",
+										"PaymentType": "PAT",
+										"Code": 3128,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Geoxideerde LDL AL",
+										"PaymentType": "PAT",
+										"Code": 9472,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Lever",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bilirubine totaal, dir., ind.",
+										"PaymentType": "MUT",
+										"Code": 128,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bilirubine totaal",
+										"PaymentType": "MUT",
+										"Code": 3180,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "GOT (AST)",
+										"PaymentType": "MUT",
+										"Code": 3210,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "GPT (ALT)",
+										"PaymentType": "MUT",
+										"Code": 3223,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "GGT",
+										"PaymentType": "MUT",
+										"Code": 3226,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Alkalische fosfatase",
+										"PaymentType": "MUT",
+										"Code": 3255,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Alkalische fosfatase iso",
+										"PaymentType": "PAT",
+										"Code": 132,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "LDH ",
+										"PaymentType": "MUT",
+										"Code": 3295,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cholinesterase",
+										"PaymentType": "MUT",
+										"Code": 3245,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "AFP",
+										"PaymentType": "MUT",
+										"Code": 4437,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Hart",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Troponine-T hs",
+										"PaymentType": "MUT",
+										"Code": 3329,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CK",
+										"PaymentType": "MUT",
+										"Code": 3320,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CK-MB",
+										"PaymentType": "MUT",
+										"Code": 3322,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "LDH",
+										"PaymentType": "MUT",
+										"Code": 3295,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hooggevoelige CRP",
+										"PaymentType": "MUT",
+										"Code": 1706,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "NT-proBNP",
+										"PaymentType": "PAT",
+										"Code": 3327,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Pancreas - Maag",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Amylase",
+										"PaymentType": "MUT",
+										"Code": 3380,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Lipase",
+										"PaymentType": "MUT",
+										"Code": 3395,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gastrine",
+										"PaymentType": "MUT",
+										"Code": 4405,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Koolhydratenmetabolisme",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "HbA1c DM",
+										"PaymentType": "MUT",
+										"Code": 2205,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "HbA1c screening",
+										"PaymentType": "PAT",
+										"Code": 2203,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Glucose nuchter",
+										"PaymentType": "MUT",
+										"Code": 2210,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Glucose nuchter zwangere",
+										"PaymentType": "MUT",
+										"Code": 2212,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Glucose niet nuchter",
+										"PaymentType": "MUT",
+										"Code": 2214,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "C-peptide",
+										"PaymentType": "MUT",
+										"Code": 3398,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Insuline",
+										"PaymentType": "MUT",
+										"Code": 2260,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Schildklier",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "TSH",
+										"PaymentType": "MUT",
+										"Code": 3930,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vrij T4",
+										"PaymentType": "MUT",
+										"Code": 3915,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vrij T3",
+										"PaymentType": "MUT",
+										"Code": 3925,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Thyroidperoxidase AL",
+										"PaymentType": "MUT",
+										"Code": 3940,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Thyroglobuline AL",
+										"PaymentType": "MUT",
+										"Code": 3954,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Thyroglobuline",
+										"PaymentType": "MUT",
+										"Code": 3965,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "TSI Therapeutisch",
+										"PaymentType": "MUT",
+										"Code": 3970,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "TSI Diagnose",
+										"PaymentType": "PAT",
+										"Code": 3972,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Calcitonine",
+										"PaymentType": "MUT",
+										"Code": 4415,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Bot",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Alk. fosf. iso botpathologie",
+										"PaymentType": "MUT",
+										"Code": 130,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Parathormoon",
+										"PaymentType": "MUT",
+										"Code": 4515,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "25-OH-vitamine D",
+										"PaymentType": "MUT",
+										"Code": 4512,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Bijnier",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cortisol 7-9h",
+										"PaymentType": "MUT",
+										"Code": 4310,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cortisol 18-20h",
+										"PaymentType": "MUT",
+										"Code": 4312,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cortisol na dexamethasone",
+										"PaymentType": "MUT",
+										"Code": 4308,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Transcortine",
+										"PaymentType": "MUT",
+										"Code": 4328,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "ACTH",
+										"PaymentType": "MUT",
+										"Code": 4340,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Aldosteron",
+										"PaymentType": "MUT",
+										"Code": 4330,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Renine activiteit",
+										"PaymentType": "MUT",
+										"Code": 4505,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "DHEAS",
+										"PaymentType": "MUT",
+										"Code": 4168,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Androsteendion",
+										"PaymentType": "MUT",
+										"Code": 4165,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "17-OH-progesteron",
+										"PaymentType": "MUT",
+										"Code": 4145,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Gonaden",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "FSH",
+										"PaymentType": "MUT",
+										"Code": 4175,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "LH",
+										"PaymentType": "MUT",
+										"Code": 4180,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Oestradiol",
+										"PaymentType": "MUT",
+										"Code": 4130,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Progesteron",
+										"PaymentType": "MUT",
+										"Code": 4140,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Prolactine",
+										"PaymentType": "MUT",
+										"Code": 4150,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Oestron",
+										"PaymentType": "MUT",
+										"Code": 4135,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Testosteron",
+										"PaymentType": "MUT",
+										"Code": 4155,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Sex horm. bind. glob.",
+										"PaymentType": "MUT",
+										"Code": 4157,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vrij testosteron berekend",
+										"PaymentType": "MUT",
+										"Code": 4159,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Androstanediolglucuronide",
+										"PaymentType": "MUT",
+										"Code": 4166,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Diversen",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Groeihormoon",
+										"PaymentType": "MUT",
+										"Code": 4335,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Somatomedine C (IgF-1)",
+										"PaymentType": "MUT",
+										"Code": 4338,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "IgF-Bindingsprote�ne3",
+										"PaymentType": "PAT",
+										"Code": 4339,
+										"Price": ""
+									} ]
+								}
+							} ]
+						}
+					}
+				}
+			}, 			{
+				"ChapterDescription": "Varia",
+				"Parts":
+				{
+
+					"Part": [ 					{
+						"PartDescription": "Tumormerker",
+						"Groups":
+						{
+
+							"Group": [ 							{
+								"GroupDescription": "Therap.",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CEA",
+										"PaymentType": "MUT",
+										"Code": 830,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CA19.9 (pancreas)",
+										"PaymentType": "MUT",
+										"Code": 832,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CA125 (ovarium)",
+										"PaymentType": "MUT",
+										"Code": 834,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CA15.3 (borst)",
+										"PaymentType": "MUT",
+										"Code": 835,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "NSE (long)",
+										"PaymentType": "MUT",
+										"Code": 836,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vrij b-HCG (testis)",
+										"PaymentType": "MUT",
+										"Code": 842,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "AFP",
+										"PaymentType": "MUT",
+										"Code": 4437,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "PSA therapeutisch (2x/j)",
+										"PaymentType": "MUT",
+										"Code": 4438,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "PSA diagn. fam. ant. >=40 j (1x/j)",
+										"PaymentType": "MUT",
+										"Code": 4447,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "PSA diagnose",
+										"PaymentType": "PAT",
+										"Code": 4439,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vrij PSA + ratio",
+										"PaymentType": "PAT",
+										"Code": 4441,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Diagnose",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CEA",
+										"PaymentType": "PAT",
+										"Code": 4421,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CA19.9 (pancreas)",
+										"PaymentType": "PAT",
+										"Code": 4436,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CA125 (ovarium)",
+										"PaymentType": "PAT",
+										"Code": 4427,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CA15.3 (borst)",
+										"PaymentType": "PAT",
+										"Code": 4433,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "NSE (long)",
+										"PaymentType": "PAT",
+										"Code": 4429,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vrij b-HCG (testis)",
+										"PaymentType": "PAT",
+										"Code": 4108,
+										"Price": ""
+									} ]
+								}
+							} ]
+						}
+					}, 					{
+						"PartDescription": "Toxicologie",
+						"Groups":
+						{
+
+							"Group": [ 							{
+								"GroupDescription": "Bloed",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E^",
+										"Description": "CO-hemoglobine",
+										"PaymentType": "MUT",
+										"Code": 4950,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E^",
+										"Description": "Methemoglobine",
+										"PaymentType": "MUT",
+										"Code": 1037,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Ethanol",
+										"PaymentType": "MUT",
+										"Code": 5005,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CDT",
+										"PaymentType": "PAT",
+										"Code": 3230,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E^",
+										"Description": "Lood",
+										"PaymentType": "MUT",
+										"Code": 372,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E^",
+										"Description": "Kwik",
+										"PaymentType": "MUT",
+										"Code": 374,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E^",
+										"Description": "Cadmium",
+										"PaymentType": "MUT",
+										"Code": 376,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Selenium",
+										"PaymentType": "PAT",
+										"Code": 4936,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E^",
+										"Description": "Zink protoporfyrine",
+										"PaymentType": "MUT",
+										"Code": 1151,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Urine",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Methanol",
+										"PaymentType": "MUT",
+										"Code": 5531,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Lood",
+										"PaymentType": "MUT",
+										"Code": 354,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Cadmium",
+										"PaymentType": "MUT",
+										"Code": 350,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Cobalt",
+										"PaymentType": "MUT",
+										"Code": 5325,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Kwik",
+										"PaymentType": "MUT",
+										"Code": 352,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Chroom",
+										"PaymentType": "MUT",
+										"Code": 5329,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Mangaan",
+										"PaymentType": "MUT",
+										"Code": 5348,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Nikkel",
+										"PaymentType": "MUT",
+										"Code": 5332,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Thallium",
+										"PaymentType": "MUT",
+										"Code": 5349,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Fluor",
+										"PaymentType": "PAT",
+										"Code": 5335,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Delta-ALA",
+										"PaymentType": "MUT",
+										"Code": 356,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Arseen",
+										"PaymentType": "MUT",
+										"Code": 358,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Benzodiazepinen",
+										"PaymentType": "MUT",
+										"Code": 5437,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Amfetaminen",
+										"PaymentType": "MUT",
+										"Code": 5605,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Cannabino�den",
+										"PaymentType": "MUT",
+										"Code": 5446,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Coca�ne",
+										"PaymentType": "MUT",
+										"Code": 5442,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Opiaten",
+										"PaymentType": "MUT",
+										"Code": 5444,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Methadone",
+										"PaymentType": "MUT",
+										"Code": 5620,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Cotinine",
+										"PaymentType": "PAT",
+										"Code": 5609,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Creatinine",
+										"PaymentType": "MUT",
+										"Code": 6226,
+										"Price": ""
+									} ]
+								}
+							} ]
+						}
+					}, 					{
+						"PartDescription": "Biochemie urine",
+						"Groups":
+						{
+
+							"Group": [ 							{
+								"GroupDescription": "Urine portie",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Zwangerschapstest",
+										"PaymentType": "MUT",
+										"Code": 5705,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Glucose",
+										"PaymentType": "MUT",
+										"Code": 6405,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Eiwit",
+										"PaymentType": "MUT",
+										"Code": 6430,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Eiwit/creatinine ratio",
+										"PaymentType": "MUT",
+										"Code": 6432,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Microalbumine DM",
+										"PaymentType": "MUT",
+										"Code": 6443,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Microalbumine Screening",
+										"PaymentType": "PAT",
+										"Code": 6444,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Immunofixatie (Bence Jones) ",
+										"PaymentType": "MUT",
+										"Code": 6223,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Eiwitelektroforese",
+										"PaymentType": "MUT",
+										"Code": 6220,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "b-2-microglobuline",
+										"PaymentType": "MUT",
+										"Code": 6230,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Amylase",
+										"PaymentType": "MUT",
+										"Code": 6465,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Osmolaliteit",
+										"PaymentType": "MUT",
+										"Code": 6500,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Teststrook",
+										"PaymentType": "PAT",
+										"Code": 428,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Creatinine",
+										"PaymentType": "MUT",
+										"Code": 6226,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Niersteen",
+								"Codes":
+								{
+									"Code":
+									{
+										"CodingSystem": "CMA",
+										"Matrix": "Steen",
+										"Description": "Niersteenanalyse",
+										"PaymentType": "MUT",
+										"Code": 224,
+										"Price": ""
+									}
+								}
+							}, 							{
+								"GroupDescription": "Urine 24h",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Lengte … m, Gewicht … kg",
+										"PaymentType": "MUT",
+										"Code": 901,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Creatinine clearance",
+										"PaymentType": "MUT",
+										"Code": 152,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Creat.Cl.Cockr.-Gault, Salaz.",
+										"PaymentType": "MUT",
+										"Code": 2346,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Glucose",
+										"PaymentType": "MUT",
+										"Code": 262,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Eiwit",
+										"PaymentType": "MUT",
+										"Code": 264,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Microalbumine DM",
+										"PaymentType": "MUT",
+										"Code": 271,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Microalbumine Screening",
+										"PaymentType": "PAT",
+										"Code": 263,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Creatinine",
+										"PaymentType": "MUT",
+										"Code": 266,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Ureum",
+										"PaymentType": "MUT",
+										"Code": 268,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Urinezuur",
+										"PaymentType": "MUT",
+										"Code": 270,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "b-2-microglobuline",
+										"PaymentType": "MUT",
+										"Code": 265,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Amylase",
+										"PaymentType": "MUT",
+										"Code": 269,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Natrium",
+										"PaymentType": "MUT",
+										"Code": 278,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Kalium",
+										"PaymentType": "MUT",
+										"Code": 280,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Calcium",
+										"PaymentType": "MUT",
+										"Code": 282,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Magnesium",
+										"PaymentType": "MUT",
+										"Code": 279,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Chloride",
+										"PaymentType": "MUT",
+										"Code": 286,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Fosfor",
+										"PaymentType": "MUT",
+										"Code": 284,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Osmolaliteit",
+										"PaymentType": "MUT",
+										"Code": 281,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Urine 24h hormonologie",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Aldosteron",
+										"PaymentType": "MUT",
+										"Code": 5760,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Vrij cortisol",
+										"PaymentType": "MUT",
+										"Code": 296,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "17-ketostero�den",
+										"PaymentType": "MUT",
+										"Code": 5805,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "17-ketostero�den fractie",
+										"PaymentType": "MUT",
+										"Code": 319,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "17-OH-stero�den",
+										"PaymentType": "MUT",
+										"Code": 5905,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Pregnaandiol en -triol",
+										"PaymentType": "MUT",
+										"Code": 242,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Urine 24h aangezuurd",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "(Nor)adrenaline + Dopamine",
+										"PaymentType": "MUT",
+										"Code": 245,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "(Nor)metanefrinen ",
+										"PaymentType": "MUT",
+										"Code": 255,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "VMA",
+										"PaymentType": "MUT",
+										"Code": 256,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "5-HIAA",
+										"PaymentType": "MUT",
+										"Code": 260,
+										"Price": ""
+									} ]
+								}
+							} ]
+						}
+					} ]
+				}
+			}, 			{
+				"ChapterDescription": "Bacteriologie",
+				"Parts":
+				{
+
+					"Part": [ 					{
+						"PartDescription": "Bacteriologie",
+						"Groups":
+						{
+
+							"Group": [ 							{
+								"GroupDescription": "Urine",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Microscopie sediment",
+										"PaymentType": "MUT",
+										"Code": 6605,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Gramkleuring",
+										"PaymentType": "MUT",
+										"Code": 6608,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 6610,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 6620,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "N. gonorrhoeae cultuur",
+										"PaymentType": "MUT",
+										"Code": 6641,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "BK rechtstreeks onderzoek",
+										"PaymentType": "MUT",
+										"Code": 6630,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "BK cultuur",
+										"PaymentType": "MUT",
+										"Code": 6635,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Faeces",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Occ. bl. Immunologisch",
+										"PaymentType": "MUT",
+										"Code": 6717,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Occ. bl. guaiac (1 staal)",
+										"PaymentType": "MUT",
+										"Code": 6705,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Occ. bl. guaiac (2 stalen)",
+										"PaymentType": "MUT",
+										"Code": 6707,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Occ. bl. guaiac (3 stalen)",
+										"PaymentType": "MUT",
+										"Code": 6708,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Calprotectine",
+										"PaymentType": "PAT",
+										"Code": 6757,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Totale vetten",
+										"PaymentType": "MUT",
+										"Code": 140,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Gramkleuring",
+										"PaymentType": "MUT",
+										"Code": 6805,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 6810,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 6830,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Parasieten (microscopie)",
+										"PaymentType": "MUT",
+										"Code": 6825,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Cryptosporidium (microsc.)",
+										"PaymentType": "MUT",
+										"Code": 6828,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Screening Giardia lamblia/Cryptosporidium",
+										"PaymentType": "MUT",
+										"Code": 339,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Giardia lamblia antigeen",
+										"PaymentType": "MUT",
+										"Code": 6844,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Cryptosporidium antigeen",
+										"PaymentType": "MUT",
+										"Code": 6858,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "C. difficile (>2 jaar)",
+										"PaymentType": "MUT",
+										"Code": 6818,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Rotavirus (<2 jaar)",
+										"PaymentType": "MUT",
+										"Code": 6820,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Adenovirus (<2 jaar)",
+										"PaymentType": "MUT",
+										"Code": 6842,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "H. pylori Ag 1ste diagn.",
+										"PaymentType": "MUT",
+										"Code": 6831,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "H. pylori Ag >=3w. na ther.",
+										"PaymentType": "MUT",
+										"Code": 6847,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Keel (bacteri�le angina)",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Keel",
+										"Description": "Gramkleuring",
+										"PaymentType": "MUT",
+										"Code": 6905,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Keel",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 6910,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Keel",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 6935,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Keel",
+										"Description": "Gisten (Candida,...)",
+										"PaymentType": "MUT",
+										"Code": 6927,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Keel",
+										"Description": "Streptococ A Ag",
+										"PaymentType": "MUT",
+										"Code": 6902,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Sputum",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Sputum",
+										"Description": "Gramkleuring",
+										"PaymentType": "MUT",
+										"Code": 7005,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Sputum",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 7010,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Sputum",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 7020,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Sputum",
+										"Description": "Gisten (Candida,...)",
+										"PaymentType": "MUT",
+										"Code": 7013,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Sputum",
+										"Description": "BK rechtstreeks onderzoek",
+										"PaymentType": "MUT",
+										"Code": 7030,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Sputum",
+										"Description": "BK cultuur",
+										"PaymentType": "MUT",
+										"Code": 7032,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Vagina",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vagina",
+										"Description": "Gramkleuring",
+										"PaymentType": "MUT",
+										"Code": 7305,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vagina",
+										"Description": "Trichomonas",
+										"PaymentType": "MUT",
+										"Code": 7313,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vagina",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 7310,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vagina",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 7325,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vagina",
+										"Description": "Gisten (Candida,...)",
+										"PaymentType": "MUT",
+										"Code": 7319,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vagina",
+										"Description": "GBS-screening (35-37 wkn zw)",
+										"PaymentType": "MUT",
+										"Code": 7491,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vagina",
+										"Description": "N.gonorrhoeae PCR ",
+										"PaymentType": "MUT",
+										"Code": 7318,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Mycose",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Mycose",
+										"Description": "Rechtstreeks onderzoek",
+										"PaymentType": "MUT",
+										"Code": 165,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Mycose",
+										"Description": "Cultuur schimmels",
+										"PaymentType": "MUT",
+										"Code": 167,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Mycose",
+										"Description": "Cultuur gisten",
+										"PaymentType": "MUT",
+										"Code": 168,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Hemocultuur",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Hemocultuur",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 7505,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Hemocultuur",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 7515,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Hemocultuur",
+										"Description": "Anaerobe cultuur",
+										"PaymentType": "MUT",
+										"Code": 7510,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Sperma",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Sperma",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 7974,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Sperma",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 7976,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Cervix",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Cervix",
+										"Description": "Gramkleuring",
+										"PaymentType": "MUT",
+										"Code": 7490,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Cervix",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 7492,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Cervix",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 7496,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Cervix",
+										"Description": "Gisten (Candida, ...) ",
+										"PaymentType": "MUT",
+										"Code": 7494,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "X",
+										"Description": "N. gonorrhoeae PCR ",
+										"PaymentType": "MUT",
+										"Code": 7499,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "X",
+										"Description": "Chlamydia trachomatis PCR",
+										"PaymentType": "MUT",
+										"Code": 7126,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "X",
+										"Description": "Chlamydia trachomatis PCR (screen.)",
+										"PaymentType": "PAT",
+										"Code": 7127,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Cervix",
+										"Description": "Mycoplasma/Ureaplasma",
+										"PaymentType": "MUT",
+										"Code": 7493,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Urethra",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Urethra",
+										"Description": "Gramkleuring",
+										"PaymentType": "MUT",
+										"Code": 7405,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Urethra",
+										"Description": "Trichomonas",
+										"PaymentType": "MUT",
+										"Code": 7413,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Urethra",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 7410,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Urethra",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 7430,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "X of U",
+										"Description": "N. gonorrhoeae PCR ",
+										"PaymentType": "MUT",
+										"Code": 7428,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "X of U",
+										"Description": "Chlamydia trachomatis PCR ",
+										"PaymentType": "MUT",
+										"Code": 7427,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "X of U",
+										"Description": "Chlamydia trachomatis PCR (screen.)",
+										"PaymentType": "PAT",
+										"Code": 7429,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Urethra",
+										"Description": "Mycoplasma/Ureaplasma",
+										"PaymentType": "MUT",
+										"Code": 7423,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Etter/Vocht",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Etter/vocht",
+										"Description": "Gramkleuring",
+										"PaymentType": "MUT",
+										"Code": 390,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Etter/vocht",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 391,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Etter/vocht",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 393,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Etter/vocht",
+										"Description": "Anaerobe cultuur",
+										"PaymentType": "MUT",
+										"Code": 392,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Etter/vocht",
+										"Description": "Gisten (Candida, ...)",
+										"PaymentType": "MUT",
+										"Code": 7117,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "X",
+										"Description": "Chlamydia trachomatis PCR",
+										"PaymentType": "MUT",
+										"Code": 395,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "X",
+										"Description": "Chlamydia trachomatis PCR (screen.)",
+										"PaymentType": "PAT",
+										"Code": 375,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Etter/vocht",
+										"Description": "BK rechtstreeks onderzoek",
+										"PaymentType": "MUT",
+										"Code": 397,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Etter/vocht",
+										"Description": "BK cultuur",
+										"PaymentType": "MUT",
+										"Code": 398,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "MRSA-screening",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "MRSA Neus",
+										"Description": "Neus",
+										"PaymentType": "MUT",
+										"Code": 7141,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "MRSA Keel",
+										"Description": "Keel",
+										"PaymentType": "MUT",
+										"Code": 7142,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "MRSA Perineum",
+										"Description": "Perineum",
+										"PaymentType": "MUT",
+										"Code": 7143,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "MRSA Mengcultuur",
+										"Description": "Neus + keel + perineum (Mengcult.)",
+										"PaymentType": "MUT",
+										"Code": 7144,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "MRSA",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 7129,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Helicobacter pylori (maagbiopt)",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Maagbiopt",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 7111,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Maagbiopt",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 7131,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Punctievocht ",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Gewrichtsvocht",
+										"Description": "WBC+formule (Gewricht)",
+										"PaymentType": "MUT",
+										"Code": 305,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Gewrichtsvocht",
+										"Description": "Glucose (Gewricht)",
+										"PaymentType": "MUT",
+										"Code": 316,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Gewrichtsvocht",
+										"Description": "Tot. eiwit (Gewricht)",
+										"PaymentType": "MUT",
+										"Code": 313,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Lumbaalvocht",
+										"Description": "WBC+formule (Lumbaal)",
+										"PaymentType": "MUT",
+										"Code": 301,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Lumbaalvocht",
+										"Description": "Glucose (Lumbaal)",
+										"PaymentType": "MUT",
+										"Code": 303,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Lumbaalvocht",
+										"Description": "Tot. eiwit (Lumbaal)",
+										"PaymentType": "MUT",
+										"Code": 307,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Pleuravocht",
+										"Description": "WBC+formule (Pleura)",
+										"PaymentType": "MUT",
+										"Code": 370,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Pleuravocht",
+										"Description": "Glucose (Pleura)",
+										"PaymentType": "MUT",
+										"Code": 371,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Pleuravocht",
+										"Description": "Tot. eiwit (Pleura)",
+										"PaymentType": "MUT",
+										"Code": 373,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Ascitesvocht",
+										"Description": "WBC+formule (Ascites)",
+										"PaymentType": "MUT",
+										"Code": 378,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Ascitesvocht",
+										"Description": "Glucose (Ascites)",
+										"PaymentType": "MUT",
+										"Code": 379,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Ascitesvocht",
+										"Description": "Tot. eiwit (Ascites)",
+										"PaymentType": "MUT",
+										"Code": 426,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Gewrichtsvocht",
+										"Description": "Urinezuur",
+										"PaymentType": "MUT",
+										"Code": 315,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Pleuravocht",
+										"Description": "LDH",
+										"PaymentType": "MUT",
+										"Code": 377,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Ascitesvocht",
+										"Description": "LDH",
+										"PaymentType": "MUT",
+										"Code": 427,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Gewrichtsvocht",
+										"Description": "Hyaluronzuur",
+										"PaymentType": "MUT",
+										"Code": 306,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Ascitesvocht",
+										"Description": "Albumine",
+										"PaymentType": "MUT",
+										"Code": 304,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vocht",
+										"Description": "Micr. onderzoek (incl. kristallen)",
+										"PaymentType": "MUT",
+										"Code": 322,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vocht",
+										"Description": "Cultuur",
+										"PaymentType": "MUT",
+										"Code": 325,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vocht",
+										"Description": "Antibiogram",
+										"PaymentType": "MUT",
+										"Code": 327,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Vocht",
+										"Description": "Anaerobe cultuur",
+										"PaymentType": "MUT",
+										"Code": 326,
+										"Price": ""
+									} ]
+								}
+							} ]
+						}
+					}, 					{
+						"PartDescription": "Virologie",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "eSwab/wisser",
+										"Description": "Herpes simplex antigeen",
+										"PaymentType": "MUT",
+										"Code": 7531,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "eSwab/wisser",
+										"Description": "Herpes zoster antigeen",
+										"PaymentType": "MUT",
+										"Code": 2014,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "eSwab/wisser",
+										"Description": "RSV antigeen",
+										"PaymentType": "MUT",
+										"Code": 7128,
+										"Price": ""
+									} ]
+								}
+							}
+						}
+					} ]
+				}
+			}, 			{
+				"ChapterDescription": "Allergie IgE",
+				"Parts":
+				{
+					"Part":
+					{
+						"PartDescription": "Allergie - IgE specifiek",
+						"Groups":
+						{
+
+							"Group": [ 							{
+								"GroupDescription": "",
+								"Codes":
+								{
+									"Code":
+									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Totaal IgE",
+										"PaymentType": "MUT",
+										"Code": 2635,
+										"Price": ""
+									}
+								}
+							}, 							{
+								"GroupDescription": "Mengsels",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bomen tx5",
+										"PaymentType": "MUT",
+										"Code": 2805,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bomen tx6 ",
+										"PaymentType": "MUT",
+										"Code": 2806,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Grassen gx3 ",
+										"PaymentType": "MUT",
+										"Code": 2708,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Kruiden wx5 ",
+										"PaymentType": "MUT",
+										"Code": 2737,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Kruiden wx6 ",
+										"PaymentType": "MUT",
+										"Code": 2738,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Dieren ex1 ",
+										"PaymentType": "MUT",
+										"Code": 2841,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Schimmels mx1 ",
+										"PaymentType": "MUT",
+										"Code": 2865,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Voedsel fx5 ",
+										"PaymentType": "MUT",
+										"Code": 2910,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Mijten",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Dermatophagoides pteronyssinus ",
+										"PaymentType": "MUT",
+										"Code": 2770,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Dermatophagoides farinae",
+										"PaymentType": "MUT",
+										"Code": 2771,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": " Lepidoglyphus destructor  ",
+										"PaymentType": "MUT",
+										"Code": 2780,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Huisstof",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Greer ",
+										"PaymentType": "MUT",
+										"Code": 2960,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hollister-Stier ",
+										"PaymentType": "MUT",
+										"Code": 2962,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Varia",
+								"Codes":
+								{
+									"Code":
+									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Latex",
+										"PaymentType": "MUT",
+										"Code": 2995,
+										"Price": ""
+									}
+								}
+							}, 							{
+								"GroupDescription": "Bomen",
+								"Codes":
+								{
+									"Code":
+									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Ruwe berk",
+										"PaymentType": "MUT",
+										"Code": 2813,
+										"Price": ""
+									}
+								}
+							}, 							{
+								"GroupDescription": "Insecten/giffen",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bijengif",
+										"PaymentType": "MUT",
+										"Code": 2790,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Wespengif",
+										"PaymentType": "MUT",
+										"Code": 2792,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Dieren",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Epitheel kat",
+										"PaymentType": "MUT",
+										"Code": 2840,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Haar paard",
+										"PaymentType": "MUT",
+										"Code": 2843,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Haar rund",
+										"PaymentType": "MUT",
+										"Code": 2844,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Haar hond",
+										"PaymentType": "MUT",
+										"Code": 2845,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Epitheel cavia",
+										"PaymentType": "MUT",
+										"Code": 2846,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Epitheel konijn",
+										"PaymentType": "MUT",
+										"Code": 2862,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Epitheel geit",
+										"PaymentType": "MUT",
+										"Code": 2860,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Kippenpluimen",
+										"PaymentType": "MUT",
+										"Code": 2848,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Parkietpluimen",
+										"PaymentType": "MUT",
+										"Code": 2858,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Faeces parkiet",
+										"PaymentType": "MUT",
+										"Code": 2857,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Faeces duif",
+										"PaymentType": "MUT",
+										"Code": 2847,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Grassen",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Veldbeemdgras",
+										"PaymentType": "MUT",
+										"Code": 2718,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Timotheegras",
+										"PaymentType": "MUT",
+										"Code": 2716,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Kropaar ",
+										"PaymentType": "MUT",
+										"Code": 2713,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Kruidachtigen",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Smal. weegbree",
+										"PaymentType": "MUT",
+										"Code": 2747,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Bijvoet",
+										"PaymentType": "MUT",
+										"Code": 2744,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Gisten en Schimmels",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Penicill. notatum",
+										"PaymentType": "MUT",
+										"Code": 2870,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cladosp.herb.",
+										"PaymentType": "MUT",
+										"Code": 2872,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Asperg. fumig.",
+										"PaymentType": "MUT",
+										"Code": 2873,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Geneesmiddelen",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Penicilloyl G",
+										"PaymentType": "MUT",
+										"Code": 2971,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Amoxicilloyl ",
+										"PaymentType": "MUT",
+										"Code": 2989,
+										"Price": ""
+									} ]
+								}
+							}, 							{
+								"GroupDescription": "Voedsel",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Koemelk",
+										"PaymentType": "MUT",
+										"Code": 2902,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Wit van ei",
+										"PaymentType": "MUT",
+										"Code": 2901,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Lactalbumine ",
+										"PaymentType": "MUT",
+										"Code": 2950,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Lactoglobuline",
+										"PaymentType": "MUT",
+										"Code": 2951,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Kaas-Schimmel ",
+										"PaymentType": "MUT",
+										"Code": 2956,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Soja ",
+										"PaymentType": "MUT",
+										"Code": 2934,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Tomaat ",
+										"PaymentType": "MUT",
+										"Code": 2936,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Aardbei ",
+										"PaymentType": "MUT",
+										"Code": 2945,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Appel ",
+										"PaymentType": "MUT",
+										"Code": 2925,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Sinaasappel ",
+										"PaymentType": "MUT",
+										"Code": 2939,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Cacao ",
+										"PaymentType": "MUT",
+										"Code": 2958,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Hazelnoot ",
+										"PaymentType": "MUT",
+										"Code": 2917,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Biergist ",
+										"PaymentType": "MUT",
+										"Code": 2946,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Garnaal ",
+										"PaymentType": "MUT",
+										"Code": 2924,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Mossel ",
+										"PaymentType": "MUT",
+										"Code": 2942,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Krab ",
+										"PaymentType": "MUT",
+										"Code": 2923,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Kreeft ",
+										"PaymentType": "MUT",
+										"Code": 2954,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Zalm ",
+										"PaymentType": "MUT",
+										"Code": 2944,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vis (kabeljauw) ",
+										"PaymentType": "MUT",
+										"Code": 2903,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Ui ",
+										"PaymentType": "MUT",
+										"Code": 2948,
+										"Price": ""
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gluten ",
+										"PaymentType": "MUT",
+										"Code": 2953,
+										"Price": ""
+									} ]
+								}
+							} ]
+						}
+					}
+				}
+			}, 			{
+				"ChapterDescription": "Voedingsallergenen",
+				"Parts":
+				{
+
+					"Part": [ 					{
+						"PartDescription": "PANEL",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+									"Code":
+									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Panel (45)",
+										"PaymentType": "PAT",
+										"Code": 8644,
+										"Price": 154
+									}
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "ZUIVELPRODUCTEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf76 ,  a-lactalbumine",
+										"PaymentType": "PAT",
+										"Code": 8140,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf77 ,  �-lactoglobuline",
+										"PaymentType": "PAT",
+										"Code": 8141,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf45 ,  Biergist-bakkersgist",
+										"PaymentType": "PAT",
+										"Code": 8142,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf78 ,  Case�ne",
+										"PaymentType": "PAT",
+										"Code": 8143,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf245 ,  Ei",
+										"PaymentType": "PAT",
+										"Code": 8755,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf1 ,  Eiwit",
+										"PaymentType": "PAT",
+										"Code": 8756,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf75 ,  Eierdooier",
+										"PaymentType": "PAT",
+										"Code": 8144,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf232 ,  Ovalbumine",
+										"PaymentType": "PAT",
+										"Code": 8145,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf233 ,  Ovomuco�de",
+										"PaymentType": "PAT",
+										"Code": 8146,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf81 ,  Kaas (vaste kazen)",
+										"PaymentType": "PAT",
+										"Code": 8147,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf82 ,  Kaas (schimmelkaas)",
+										"PaymentType": "PAT",
+										"Code": 8148,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf300 ,  Geitenmelk",
+										"PaymentType": "PAT",
+										"Code": 8149,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf231 ,  Gekookte melk",
+										"PaymentType": "PAT",
+										"Code": 8150,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf236 ,  Melkwei",
+										"PaymentType": "PAT",
+										"Code": 8151,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "-",
+										"Description": "Gf286 ,  Paardenmelk",
+										"PaymentType": "PAT",
+										"Code": 8152,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "GROENTEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf35 ,  Aardappel",
+										"PaymentType": "PAT",
+										"Code": 8153,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf261 ,  Asperge",
+										"PaymentType": "PAT",
+										"Code": 8154,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf262 ,  Aubergine",
+										"PaymentType": "PAT",
+										"Code": 8155,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf96 ,  Avocado",
+										"PaymentType": "PAT",
+										"Code": 8156,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf51 ,  Bamboescheut",
+										"PaymentType": "PAT",
+										"Code": 8157,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf291 ,  Bloemkool",
+										"PaymentType": "PAT",
+										"Code": 8158,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf260 ,  Broccoli",
+										"PaymentType": "PAT",
+										"Code": 8159,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf287 ,  Bruine boon",
+										"PaymentType": "PAT",
+										"Code": 8160,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf12 ,  Erwt",
+										"PaymentType": "PAT",
+										"Code": 8161,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf309 ,  Chickpea",
+										"PaymentType": "PAT",
+										"Code": 8162,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf319 ,  Knolraap",
+										"PaymentType": "PAT",
+										"Code": 8163,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf244 ,  Komkommer",
+										"PaymentType": "PAT",
+										"Code": 8164,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf216 ,  Kool",
+										"PaymentType": "PAT",
+										"Code": 8165,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf235 ,  Linzen",
+										"PaymentType": "PAT",
+										"Code": 8166,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf47 ,  Look",
+										"PaymentType": "PAT",
+										"Code": 8167,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf212 ,  Paddenstoel",
+										"PaymentType": "PAT",
+										"Code": 8168,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf86 ,  Peterselie",
+										"PaymentType": "PAT",
+										"Code": 8169,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf225 ,  Pompoen",
+										"PaymentType": "PAT",
+										"Code": 8170,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf315 ,  Prinsessenboon",
+										"PaymentType": "PAT",
+										"Code": 8171,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf85 ,  Selderij",
+										"PaymentType": "PAT",
+										"Code": 8172,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf215 ,  Sla",
+										"PaymentType": "PAT",
+										"Code": 8173,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf14 ,  Soja",
+										"PaymentType": "PAT",
+										"Code": 8174,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf214 ,  Spinazie",
+										"PaymentType": "PAT",
+										"Code": 8175,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf217 ,  Spruiten",
+										"PaymentType": "PAT",
+										"Code": 8176,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf25 ,  Tomaat",
+										"PaymentType": "PAT",
+										"Code": 8177,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf48 ,  Ui",
+										"PaymentType": "PAT",
+										"Code": 8178,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf276 ,  Venkel",
+										"PaymentType": "PAT",
+										"Code": 8179,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf15 ,  Witte boon",
+										"PaymentType": "PAT",
+										"Code": 8180,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf31 ,  Wortel",
+										"PaymentType": "PAT",
+										"Code": 8181,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf54 ,  Zoete aardappel",
+										"PaymentType": "PAT",
+										"Code": 8182,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "FRUIT",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf322 ,  Aalbes",
+										"PaymentType": "PAT",
+										"Code": 8183,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf44 ,  Aardbei",
+										"PaymentType": "PAT",
+										"Code": 8184,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf237 ,  Abrikoos",
+										"PaymentType": "PAT",
+										"Code": 8185,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf210 ,  Ananas",
+										"PaymentType": "PAT",
+										"Code": 8186,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf49 ,  Appel",
+										"PaymentType": "PAT",
+										"Code": 8187,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf92 ,  Banaan",
+										"PaymentType": "PAT",
+										"Code": 8188,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf288 ,  Blauwe bosbes",
+										"PaymentType": "PAT",
+										"Code": 8189,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf211 ,  Braambes",
+										"PaymentType": "PAT",
+										"Code": 8190,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf295 ,  Carambolvrucht",
+										"PaymentType": "PAT",
+										"Code": 8191,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf208 ,  Citroen",
+										"PaymentType": "PAT",
+										"Code": 8192,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf289 ,  Dadel",
+										"PaymentType": "PAT",
+										"Code": 8193,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf259 ,  Druif",
+										"PaymentType": "PAT",
+										"Code": 8194,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf343 ,  Framboos",
+										"PaymentType": "PAT",
+										"Code": 8195,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf292 ,  Guave",
+										"PaymentType": "PAT",
+										"Code": 8196,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf242 ,  Kers",
+										"PaymentType": "PAT",
+										"Code": 8197,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf84 ,  Kiwi",
+										"PaymentType": "PAT",
+										"Code": 8198,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf306 ,  Limoen",
+										"PaymentType": "PAT",
+										"Code": 8199,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf348 ,  Lychee",
+										"PaymentType": "PAT",
+										"Code": 8200,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf302 ,  Mandarijn",
+										"PaymentType": "PAT",
+										"Code": 8201,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf91 ,  Mango",
+										"PaymentType": "PAT",
+										"Code": 8202,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf87 ,  Meloen",
+										"PaymentType": "PAT",
+										"Code": 8203,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf342 ,  Olijf (zwart, vers)",
+										"PaymentType": "PAT",
+										"Code": 8204,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf293 ,  Papaja",
+										"PaymentType": "PAT",
+										"Code": 8205,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf294 ,  Passievrucht",
+										"PaymentType": "PAT",
+										"Code": 8206,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf94 ,  Peer",
+										"PaymentType": "PAT",
+										"Code": 8207,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf95 ,  Perzik",
+										"PaymentType": "PAT",
+										"Code": 8208,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf209 ,  Pompelmoes",
+										"PaymentType": "PAT",
+										"Code": 8209,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf255 ,  Pruim",
+										"PaymentType": "PAT",
+										"Code": 8210,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf341 ,  Rode bosbes",
+										"PaymentType": "PAT",
+										"Code": 8211,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf33 ,  Sinaasappel",
+										"PaymentType": "PAT",
+										"Code": 8212,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf328 ,  Vijg",
+										"PaymentType": "PAT",
+										"Code": 8213,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf329 ,  Watermeloen",
+										"PaymentType": "PAT",
+										"Code": 8214,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "GRANEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf11 ,  Boekweit",
+										"PaymentType": "PAT",
+										"Code": 8215,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf6 ,  Gerst",
+										"PaymentType": "PAT",
+										"Code": 8216,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf56 ,  Gierst",
+										"PaymentType": "PAT",
+										"Code": 8217,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf79 ,  Gluten",
+										"PaymentType": "PAT",
+										"Code": 8218,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf7 ,  Haver",
+										"PaymentType": "PAT",
+										"Code": 8219,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf8 ,  Ma�",
+										"PaymentType": "PAT",
+										"Code": 8220,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf90 ,  Mout",
+										"PaymentType": "PAT",
+										"Code": 8221,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf9 ,  Rijst",
+										"PaymentType": "PAT",
+										"Code": 8222,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf5 ,  Rogge",
+										"PaymentType": "PAT",
+										"Code": 8223,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf124 ,  Spelt",
+										"PaymentType": "PAT",
+										"Code": 8224,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf4 ,  Tarwe",
+										"PaymentType": "PAT",
+										"Code": 8225,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "VLEES",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf284 ,  Kalkoenvlees",
+										"PaymentType": "PAT",
+										"Code": 8455,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf83 ,  Kippenvlees",
+										"PaymentType": "PAT",
+										"Code": 8456,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf213 ,  Konijnenvlees",
+										"PaymentType": "PAT",
+										"Code": 8457,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf321 ,  Paardenvlees",
+										"PaymentType": "PAT",
+										"Code": 8458,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf27 ,  Rundvlees",
+										"PaymentType": "PAT",
+										"Code": 8459,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf88 ,  Schapenvlees",
+										"PaymentType": "PAT",
+										"Code": 8460,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf26 ,  Varkensvlees",
+										"PaymentType": "PAT",
+										"Code": 8461,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf313 ,  Ansjovis",
+										"PaymentType": "PAT",
+										"Code": 8462,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf204 ,  Forel",
+										"PaymentType": "PAT",
+										"Code": 8463,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf410 ,  Grouper",
+										"PaymentType": "PAT",
+										"Code": 8464,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf205 ,  Haring",
+										"PaymentType": "PAT",
+										"Code": 8465,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf303 ,  Heilbot",
+										"PaymentType": "PAT",
+										"Code": 8466,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf60 ,  Horsmakreel",
+										"PaymentType": "PAT",
+										"Code": 8467,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf3 ,  Kabeljauw",
+										"PaymentType": "PAT",
+										"Code": 8468,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf369 ,  Kanaalmeerval",
+										"PaymentType": "PAT",
+										"Code": 8469,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf412 ,  Keizerbaars",
+										"PaymentType": "PAT",
+										"Code": 8470,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf413 ,  Koolvis",
+										"PaymentType": "PAT",
+										"Code": 8471,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf50 ,  Makreel",
+										"PaymentType": "PAT",
+										"Code": 8472,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf59 ,  Octopus",
+										"PaymentType": "PAT",
+										"Code": 8473,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf264 ,  Paling",
+										"PaymentType": "PAT",
+										"Code": 8474,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf58 ,  Pijlinktvis",
+										"PaymentType": "PAT",
+										"Code": 8475,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf381 ,  Rode snapper",
+										"PaymentType": "PAT",
+										"Code": 8476,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf61 ,  Sardien",
+										"PaymentType": "PAT",
+										"Code": 8477,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf42 ,  Schelvis",
+										"PaymentType": "PAT",
+										"Code": 8478,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf254 ,  Schol",
+										"PaymentType": "PAT",
+										"Code": 8479,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf314 ,  Slak",
+										"PaymentType": "PAT",
+										"Code": 8480,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf415 ,  Snoekbaars",
+										"PaymentType": "PAT",
+										"Code": 8481,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf307 ,  Stokvis",
+										"PaymentType": "PAT",
+										"Code": 8482,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf414 ,  Tilapia",
+										"PaymentType": "PAT",
+										"Code": 8483,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf337 ,  Tong",
+										"PaymentType": "PAT",
+										"Code": 8484,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf40 ,  Tonijn",
+										"PaymentType": "PAT",
+										"Code": 8485,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf384 ,  Witte zalm",
+										"PaymentType": "PAT",
+										"Code": 8486,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf41 ,  Zalm",
+										"PaymentType": "PAT",
+										"Code": 8487,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf312 ,  Zwaardvis",
+										"PaymentType": "PAT",
+										"Code": 8488,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf24 ,  Garnaal",
+										"PaymentType": "PAT",
+										"Code": 8490,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf23 ,  Krab",
+										"PaymentType": "PAT",
+										"Code": 8491,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf80 ,  Kreeft",
+										"PaymentType": "PAT",
+										"Code": 8492,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf304 ,  Langoest",
+										"PaymentType": "PAT",
+										"Code": 8493,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf37 ,  Mossel",
+										"PaymentType": "PAT",
+										"Code": 8494,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf290 ,  Oester",
+										"PaymentType": "PAT",
+										"Code": 8495,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf320 ,  Rivierkreeft",
+										"PaymentType": "PAT",
+										"Code": 8496,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf338 ,  St Jacobsvrucht",
+										"PaymentType": "PAT",
+										"Code": 8497,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "KRUIDEN EN SPECERIJEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf227 ,  Bietsuiker",
+										"PaymentType": "PAT",
+										"Code": 8503,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf271 ,  Anijs",
+										"PaymentType": "PAT",
+										"Code": 8504,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf269 ,  Basilicum",
+										"PaymentType": "PAT",
+										"Code": 8505,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf279 ,  Chilipeper",
+										"PaymentType": "PAT",
+										"Code": 8507,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf281 ,  Curry",
+										"PaymentType": "PAT",
+										"Code": 8508,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf277 ,  Dille",
+										"PaymentType": "PAT",
+										"Code": 8509,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf272 ,  Dragon",
+										"PaymentType": "PAT",
+										"Code": 8510,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf270 ,  Gember",
+										"PaymentType": "PAT",
+										"Code": 8511,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf263 ,  Groene peper",
+										"PaymentType": "PAT",
+										"Code": 8512,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf324 ,  Hop",
+										"PaymentType": "PAT",
+										"Code": 8513,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf220 ,  Kaneel",
+										"PaymentType": "PAT",
+										"Code": 8514,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf267 ,  Kardemom",
+										"PaymentType": "PAT",
+										"Code": 8506,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf317 ,  Koriander",
+										"PaymentType": "PAT",
+										"Code": 8515,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf268 ,  Kruidnagel",
+										"PaymentType": "PAT",
+										"Code": 8516,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf265 ,  Kummel",
+										"PaymentType": "PAT",
+										"Code": 8517,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf278 ,  Laurier (blad)",
+										"PaymentType": "PAT",
+										"Code": 8518,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf274 ,  Marjolein",
+										"PaymentType": "PAT",
+										"Code": 8519,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf89 ,  Mosterd",
+										"PaymentType": "PAT",
+										"Code": 8520,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf332 ,  Munt",
+										"PaymentType": "PAT",
+										"Code": 8521,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf282 ,  Muskaatnoot",
+										"PaymentType": "PAT",
+										"Code": 8522,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf283 ,  Oregano",
+										"PaymentType": "PAT",
+										"Code": 8523,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf218 ,  Paprika",
+										"PaymentType": "PAT",
+										"Code": 8524,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf331 ,  Saffraan",
+										"PaymentType": "PAT",
+										"Code": 8525,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf344 ,  Salie",
+										"PaymentType": "PAT",
+										"Code": 8526,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf273 ,  Tijm",
+										"PaymentType": "PAT",
+										"Code": 8527,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf234 ,  Vanille",
+										"PaymentType": "PAT",
+										"Code": 8528,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf280 ,  Zwarte peper",
+										"PaymentType": "PAT",
+										"Code": 8529,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "NOTEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf20 ,  Amandel",
+										"PaymentType": "PAT",
+										"Code": 8530,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf93 ,  Cacao",
+										"PaymentType": "PAT",
+										"Code": 8531,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf202 ,  Cashewnoot",
+										"PaymentType": "PAT",
+										"Code": 8532,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf17 ,  Hazelnoot",
+										"PaymentType": "PAT",
+										"Code": 8533,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf299 ,  Kastanje",
+										"PaymentType": "PAT",
+										"Code": 8534,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf36  ,  Kokosnoot",
+										"PaymentType": "PAT",
+										"Code": 8535,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf345 ,  Macadamia noot",
+										"PaymentType": "PAT",
+										"Code": 8536,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf18 ,  Paranoot",
+										"PaymentType": "PAT",
+										"Code": 8537,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf201 ,  Pecannoot",
+										"PaymentType": "PAT",
+										"Code": 8538,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf13 ,  Pinda",
+										"PaymentType": "PAT",
+										"Code": 8539,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf203 ,  Pistachenoot",
+										"PaymentType": "PAT",
+										"Code": 8540,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf256 ,  Walnoot",
+										"PaymentType": "PAT",
+										"Code": 8541,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "ZADEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf316 ,  Koolzaad",
+										"PaymentType": "PAT",
+										"Code": 8545,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf333 ,  Lijnzaad",
+										"PaymentType": "PAT",
+										"Code": 8546,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf335 ,  Lupinezaad",
+										"PaymentType": "PAT",
+										"Code": 8547,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf224 ,  Papaverzaad",
+										"PaymentType": "PAT",
+										"Code": 8548,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf253 ,  Pijnappelzaad",
+										"PaymentType": "PAT",
+										"Code": 8549,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf226 ,  Pompoenzaad",
+										"PaymentType": "PAT",
+										"Code": 8750,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf347 ,  Quinoa",
+										"PaymentType": "PAT",
+										"Code": 8751,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf10 ,  Sesamzaad",
+										"PaymentType": "PAT",
+										"Code": 8752,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf219 ,  Venkelzaad",
+										"PaymentType": "PAT",
+										"Code": 8753,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "Orthomoleculair",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf297 ,  Arabische gom",
+										"PaymentType": "PAT",
+										"Code": 8450,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf246 ,  Guar gom",
+										"PaymentType": "PAT",
+										"Code": 8451,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf298 ,  Tragacanthe gom",
+										"PaymentType": "PAT",
+										"Code": 8452,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf340 ,  Karmijnrood",
+										"PaymentType": "PAT",
+										"Code": 8453,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf247 ,  Honing",
+										"PaymentType": "PAT",
+										"Code": 8500,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf221 ,  Koffie",
+										"PaymentType": "PAT",
+										"Code": 8501,
+										"Price": 7.44
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Gf222 ,  Thee",
+										"PaymentType": "PAT",
+										"Code": 8502,
+										"Price": 7.44
+									} ]
+								}
+							}
+						}
+					} ]
+				}
+			}, 			{
+				"ChapterDescription": "Orthomoleculair",
+				"Parts":
+				{
+
+					"Part": [ 					{
+						"PartDescription": "PANELS",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "1Epl*; 2S,1HDT",
+										"Description": "Preventiepanel mannen ",
+										"PaymentType": "PAT ",
+										"Code": 275,
+										"Price": 200
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "1Epl*; 2S,1HDT",
+										"Description": "Preventiepanel  vrouwen",
+										"PaymentType": "PAT",
+										"Code": 297,
+										"Price": 180
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "4E,1Epl*,2S,1HDT,U24h",
+										"Description": "CVS Panel",
+										"PaymentType": "PAT",
+										"Code": 500,
+										"Price": 285
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "OXIDATIEVE STRESS",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Epl*",
+										"Description": "Peroxide-gehalte",
+										"PaymentType": "PAT",
+										"Code": 9471,
+										"Price": 20
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "H*#",
+										"Description": "Glutathion (totaal)",
+										"PaymentType": "PAT",
+										"Code": 1186,
+										"Price": 17
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Co-enzyme Q10",
+										"PaymentType": "PAT",
+										"Code": 3199,
+										"Price": 16
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Glutathion peroxidase (GPX)",
+										"PaymentType": "PAT",
+										"Code": 9473,
+										"Price": 17
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "Superoxide Dismutase (SOD) €",
+										"PaymentType": "PAT",
+										"Code": 3201,
+										"Price": 4
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "Hpl*#",
+										"Description": "Malondialdehyde (MDA)",
+										"PaymentType": "PAT",
+										"Code": 3194,
+										"Price": 15
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Totaal antioxidant status",
+										"PaymentType": "PAT",
+										"Code": 9470,
+										"Price": 19
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Geoxideerd LDL-antistoffen",
+										"PaymentType": "PAT",
+										"Code": 9472,
+										"Price": 16
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "VITAMINEN EN NUTRIENTEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S#",
+										"Description": "Vitamine A",
+										"PaymentType": "PAT",
+										"Code": 4508,
+										"Price": 20
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E*",
+										"Description": "Vitamine B2    i",
+										"PaymentType": "PAT",
+										"Code": 4518,
+										"Price": 25
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E*",
+										"Description": "Vitamine B6   i",
+										"PaymentType": "PAT",
+										"Code": 4516,
+										"Price": 30
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Foliumzuur",
+										"PaymentType": "PAT",
+										"Code": 1185,
+										"Price": 9
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E",
+										"Description": "Foliumzuur in RBC",
+										"PaymentType": "PAT",
+										"Code": 1187,
+										"Price": 10
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vitamine B12",
+										"PaymentType": "PAT",
+										"Code": 1180,
+										"Price": 9
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vitamine C   i",
+										"PaymentType": "PAT",
+										"Code": 4506,
+										"Price": 7
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vitamine D (25-hydroxy)",
+										"PaymentType": "PAT",
+										"Code": 4512,
+										"Price": 13
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S#",
+										"Description": "Vitamine E",
+										"PaymentType": "PAT",
+										"Code": 4507,
+										"Price": 20
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S#",
+										"Description": "Tocoferol (alfa/gamma) €",
+										"PaymentType": "PAT",
+										"Code": 4503,
+										"Price": 28
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S#",
+										"Description": "Carotenoïden (gefract.) €",
+										"PaymentType": "PAT",
+										"Code": 4519,
+										"Price": 25
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "L-carnitine",
+										"PaymentType": "PAT",
+										"Code": 3482,
+										"Price": 18
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "Vetzuren profiel €",
+										"PaymentType": "PAT",
+										"Code": 3601,
+										"Price": 69
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "CARDIOVASCULAIR RISICO",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Lp(a)",
+										"PaymentType": "PAT",
+										"Code": 3128,
+										"Price": 16
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "CRP ultrasensitief",
+										"PaymentType": "PAT",
+										"Code": 1706,
+										"Price": 5
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "HDT",
+										"Description": "Homocyste�ne",
+										"PaymentType": "PAT",
+										"Code": 1560,
+										"Price": 16
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "NT-proBNP",
+										"PaymentType": "PAT",
+										"Code": 3327,
+										"Price": 27
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Galectin-3",
+										"PaymentType": "PAT",
+										"Code": 3323,
+										"Price": 57
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "OLIGO ELEMENTEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Koper",
+										"PaymentType": "PAT",
+										"Code": 4924,
+										"Price": 10
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S+E ex",
+										"Description": "Koper (RBC)",
+										"PaymentType": "PAT",
+										"Code": 3464,
+										"Price": 15
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Zink",
+										"PaymentType": "PAT",
+										"Code": 4945,
+										"Price": 10
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S+E ex",
+										"Description": "Zink (RBC)",
+										"PaymentType": "PAT",
+										"Code": 4946,
+										"Price": 15
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Chroom",
+										"PaymentType": "PAT",
+										"Code": 4918,
+										"Price": 20
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S+E ex",
+										"Description": "Chroom (RBC)",
+										"PaymentType": "PAT",
+										"Code": 4919,
+										"Price": 25
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Selenium",
+										"PaymentType": "PAT",
+										"Code": 4936,
+										"Price": 20
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S+E ex",
+										"Description": "Selenium (RBC)",
+										"PaymentType": "PAT",
+										"Code": 9475,
+										"Price": 25
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "Magnesium (RBC)",
+										"PaymentType": "PAT",
+										"Code": 3467,
+										"Price": 10
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Magnesium",
+										"PaymentType": "PAT",
+										"Code": 3465,
+										"Price": 5
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "ZWARE METALEN",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Arseen",
+										"PaymentType": "PAT",
+										"Code": 4905,
+										"Price": 36
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "Lood (volbloed)",
+										"PaymentType": "PAT",
+										"Code": 4930,
+										"Price": 22
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "Kwik (volbloed)",
+										"PaymentType": "PAT",
+										"Code": 4927,
+										"Price": 36
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "Cadmium (volbloed)",
+										"PaymentType": "PAT",
+										"Code": 4915,
+										"Price": 36
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "ENDOCRINOLOGIE",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vrij cortisol (ochtend)",
+										"PaymentType": "PAT",
+										"Code": 4313,
+										"Price": 26
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Vrij testosterone",
+										"PaymentType": "PAT",
+										"Code": 4159,
+										"Price": 24
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "DHEA sulfaat",
+										"PaymentType": "PAT",
+										"Code": 4168,
+										"Price": 13
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Androstanediol glucuronide",
+										"PaymentType": "PAT",
+										"Code": 4166,
+										"Price": 21
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "IGF1 + IGFBP3",
+										"PaymentType": "PAT",
+										"Code": 4338,
+										"Price": 33
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Pregnenolone €",
+										"PaymentType": "PAT",
+										"Code": 4136,
+										"Price": 22
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "LYMFOCYTENTYPERING",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "CD3/CD4/CD8/CD19/NK/CD5/ActT/CD8s/CD8c €",
+										"PaymentType": "PAT",
+										"Code": 616,
+										"Price": 64
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "CD57 €",
+										"PaymentType": "PAT",
+										"Code": 1399,
+										"Price": 74
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "E ex",
+										"Description": "Methylatie cyclus polymorphisms , MTHFR 677C/T en 1298A/C €",
+										"PaymentType": "PAT",
+										"Code": 228,
+										"Price": 74
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "LEAKY GUT",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+									"Code":
+									{
+										"CodingSystem": "CMA",
+										"Matrix": "S",
+										"Description": "Zonuline",
+										"PaymentType": "PAT",
+										"Code": 8640,
+										"Price": 75
+									}
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "24 UUR URINE",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Vrij cortisol",
+										"PaymentType": "PAT",
+										"Code": 296,
+										"Price": 23
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Magnesium",
+										"PaymentType": "PAT",
+										"Code": 279,
+										"Price": 5
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "T3",
+										"PaymentType": "PAT",
+										"Code": 5735,
+										"Price": 22
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "T4",
+										"PaymentType": "PAT",
+										"Code": 5730,
+										"Price": 22
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Melatonine-6-sulfaat",
+										"PaymentType": "PAT",
+										"Code": 5789,
+										"Price": 12.5
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Iodium",
+										"PaymentType": "PAT",
+										"Code": 6262,
+										"Price": 15
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Aminozuren (24u collectie of portie)",
+										"PaymentType": "PAT",
+										"Code": 6182,
+										"Price": 62
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Stero�dprofiel",
+										"PaymentType": "PAT",
+										"Code": 506,
+										"Price": 76.1
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "HVA, MHPG, 5HIA (12u collectie) €   i",
+										"PaymentType": "PAT",
+										"Code": 611,
+										"Price": 75
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "URINEPORTIE (2 UUR NA PROVOCATIE)",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Zware metalen (As/Cd/Pb/Hg)",
+										"PaymentType": "PAT",
+										"Code": 615,
+										"Price": 32
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Zware metalen (panel 26)",
+										"PaymentType": "PAT",
+										"Code": 627,
+										"Price": 65
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "OCHTENDURINE",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "8-hydroxy-desoxyguanosine €",
+										"PaymentType": "PAT",
+										"Code": 6264,
+										"Price": 25
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Methylmalonzuur",
+										"PaymentType": "PAT",
+										"Code": 5319,
+										"Price": 35
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Estrogeen metabolieten index i",
+										"PaymentType": "PAT",
+										"Code": 4189,
+										"Price": 100
+									} ]
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "URINE SPECIALE AFNAME",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+									"Code":
+									{
+										"CodingSystem": "CMA",
+										"Matrix": "U",
+										"Description": "Organische metabolieten €",
+										"PaymentType": "PAT",
+										"Code": 8653,
+										"Price": 95
+									}
+								}
+							}
+						}
+					}, 					{
+						"PartDescription": "FAECES",
+						"Groups":
+						{
+							"Group":
+							{
+								"GroupDescription": "",
+								"Codes":
+								{
+
+									"Code": [ 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Calprotectine",
+										"PaymentType": "PAT",
+										"Code": 6757,
+										"Price": 33
+									}, 									{
+										"CodingSystem": "CMA",
+										"Matrix": "F",
+										"Description": "Gezondheidsscreening darm €",
+										"PaymentType": "PAT",
+										"Code": 8654,
+										"Price": 219
+									} ]
+								}
+							}
+						}
+					} ]
+				}
+			} ]
+		}
+	}
+}

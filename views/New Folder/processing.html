@@ -1,0 +1,45 @@
+
+<div id = "view-processing" class = "page-container">
+	<div data-left-menu>
+		<ul>
+			<li><a href = "#/patients" class = "icon-patient">{{labels.Patient}}</a></li>
+			<li><a href = "#/request" class = "icon-request">{{labels.Request}}</a></li>
+			<li><a href = "" class = "icon-processing actived">{{labels.Processing}}</a></li>
+			<li><a href = "#/settings" class = "icon-settings">{{labels.Settings}}</a></li>
+			<li><a href = "" class = "icon-signout" ng-click = "signOut()">{{labels.Sign_Out}}</a></li>
+			<li data-mobile-only></li>
+		</ul>
+	</div>
+	
+	<div data-role = "page">
+		<div class = "page-wrapper">
+			<div class = "page-subject">
+				{{labels.Processing}}
+			</div>
+			<div class = "page-content">
+				<div class = "page-form">
+					<table class = "data-list">
+						<thead><tr>
+								<th width = "25%">{{labels.Date}}</th>
+								<th width = "60%">{{labels.Patient}}</th>
+								<th width = "15%">{{labels.Action}}</th>
+						</tr></thead>
+						
+						<tbody>
+							<tr><td colspan = 3><div class = "search-bar col-lg-12"><input type = "text" placeholder = "Search" ng-model = "searchProcessData"/></div></td></tr>
+
+							<tr ng-repeat = "p in processData | orderBy: 'date' | filter: searchProcessData | limitTo: itemsPerPage * currentPage | limitTo: itemsPerPage * currentPage < (processData | filter: searchProcessData).length? -itemsPerPage : itemsPerPage - (itemsPerPage * currentPage - (processData | filter: searchProcessData).length)">
+								<td>{{p.date}}</td>
+								<td>{{p.patient}}</td>
+								<td><a href = "" ng-click = "processing(p)">{{p.action}}</a></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class = "pagenation-wrap" ng-show = "(processData | filter: searchProcessData).length > itemsPerPage">
+						<pagination total-items = "(processData | filter: searchProcessData).length" items-per-page = "itemsPerPage" ng-model = "currentPage" max-size = "maxSize" boundary-links = "true" rotate = "false" previous-text = "&lsaquo;" next-text = "&rsaquo;" first-text = "&laquo;" last-text = "&raquo;"></pagination>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

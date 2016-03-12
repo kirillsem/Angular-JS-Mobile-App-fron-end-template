@@ -1,0 +1,307 @@
+{
+	"Labels":
+	{
+		
+		"Label": [ 		{
+			"langCode": "NL",
+			"langLabel": "Digitale recepten voor medische analyses",
+			"refLabel": "Digital prescriptions for medical analyses"
+		},		{
+			"langCode": "NL",
+			"langLabel": "Uw digitale assistent",
+			"refLabel": "Your digital assistant"
+		},		{
+			"langCode": "NL",
+			"langLabel": "Welkom",
+			"refLabel": "Welcome"
+		},		{
+			"langCode": "NL",
+			"langLabel": "Nieuw",
+			"refLabel": "New"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Gebruikers Naam",
+			"refLabel": "UserName"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Bewaar",
+			"refLabel": "Password"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Aanmelden",
+			"refLabel": "Signin"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Nieuwe Aanvraag",
+			"refLabel": "New Request"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Patiënt",
+			"refLabel": "Patient"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Patiënten",
+			"refLabel": "Patients"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Bearbeiten",
+			"refLabel": "Edit"
+		},  		{
+			"langCode": "NL",
+			"langLabel": "Nieuwe patiënt",
+			"refLabel": "New Patient"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Voorschrijver",
+			"refLabel": "Prescriber"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Aanvraag",
+			"refLabel": "Request"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Gevraagde Analyses",
+			"refLabel": "Requested Analyses"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Verwerking",
+			"refLabel": "Processing"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Instellingen",
+			"refLabel": "Settings"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "afmelden",
+			"refLabel": "Sign Out"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Bewaar",
+			"refLabel": "Save"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Löschen",
+			"refLabel": "Delete"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Print",
+			"refLabel": "Print"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Verwerk",
+			"refLabel": "Process"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Annuleer",
+			"refLabel": "Cancel"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Naam",
+			"refLabel": "Name"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Voornaam",
+			"refLabel": "FirstName"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Adres",
+			"refLabel": "Address"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Straat",
+			"refLabel": "Street"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Telefoon",
+			"refLabel": "Phone"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "eMail",
+			"refLabel": "eMail"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "GSM",
+			"refLabel": "Mobile"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Geslacht",
+			"refLabel": "Gender"
+		},		{
+			"langCode": "NL",
+			"langLabel": "Nummer Mut",
+			"refLabel": "Social Sec Number"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "RRN",
+			"refLabel": "RRN"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Aanvrager",
+			"refLabel": "Prescriber"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "RIZIV",
+			"refLabel": "RIZIV"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Type",
+			"refLabel": "Type"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Organisatie",
+			"refLabel": "Organisation"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Datum Aanvraag",
+			"refLabel": "Request Date"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Datum Staal",
+			"refLabel": "Sample Date"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Dringend",
+			"refLabel": "Urgent"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Yes",
+			"refLabel": "Yes"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Nu",
+			"refLabel": "No"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Kopies",
+			"refLabel": "Copies"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Kopie Patiënt",
+			"refLabel": "Patient Copy"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Extra Kopies",
+			"refLabel": "Extra Copies"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Opmerkingen",
+			"refLabel": "Remarks"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Klinische Gegevens",
+			"refLabel": "Clinical Data"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Verjaardag",
+			"refLabel": "Birthday"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Geslacht",
+			"refLabel": "Gender"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Ritssluiting",
+			"refLabel": "Zip"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Stad",
+			"refLabel": "City"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Contact Infomation",
+			"refLabel": "Contact Infomation"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "M",
+			"refLabel": "M"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "V",
+			"refLabel": "F"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Onze Referentie",
+			"refLabel": "Our Reference"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Datum",
+			"refLabel": "Date"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Actie",
+			"refLabel": "Action"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Taal",
+			"refLabel": "Language"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Detail",
+			"refLabel": "Detail"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Informatie voor de patiënt",
+			"refLabel": "Patient Information"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Klinische Information",
+			"refLabel": "Clinical Information"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Klinische patiënten",
+			"refLabel": "Clinical Patients"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Addtional Reactie",
+			"refLabel": "Addtional Remarks"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Aanvraag Informatie",
+			"refLabel": "Request Information"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Systeem Infomatie",
+			"refLabel": "System Information"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Voorschrijver Infomatie",
+			"refLabel": "Prescriber Information"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Sub Rekeningen",
+			"refLabel": "Sub Accounts"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Creëer",
+			"refLabel": "Create"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Update",
+			"refLabel": "Update"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Blanco Lijst",
+			"refLabel": "Empty List"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Selecteer Klinische feit",
+			"refLabel": "Select Clinical fact"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Selecteer Nieuw Contact",
+			"refLabel": "Select New Contact"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Contact",
+			"refLabel": "Contact"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Resultaat",
+			"refLabel": "Result"
+		}, 		{
+			"langCode": "NL",
+			"langLabel": "Logistiek",
+			"refLabel": "Logistics"
+		} ]
+	}
+}

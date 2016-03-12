@@ -1,0 +1,229 @@
+
+<div id = "view-request" class = "page-container" ng-init = "$parent.openLeftMenu = false">
+	<div data-role = "page">
+		<div class = "page-wrapper">
+			<div class = "page-subject">
+				{{labels.Request}}
+				<div class = "control-bar">
+					<a class = "btn-light-gray" ng-click = "initRequestDetailForm()" ng-show = "!detailFlag">{{labels.Detail}}</a>
+
+					<a class = "btn-light-blue" ng-click = "initRequestDetailForm('cancel')" ng-if = "detailFlag">{{labels.Cancel}}</a>
+					<a class = "btn-light-gray" ng-click = "saveRequestInfo();" ng-if = "detailFlag">{{labels.Save}}</a>
+
+					<a class = "btn-light-red" ng-click = "process();">{{labels.Process}}</a>
+				</div>
+				<div class = "content-title" data-pc-only>
+					<i>Thire Alain - 19/12/1959</i>
+				</div>
+			</div>
+			<div class = "page-detail-content" ng-show = "detailFlag">
+				<div class = "page-form col-lg-8">
+					<label class = "form-label">
+						{{labels.Patient_Information}}
+						<div class = "control-bar">
+							<a ng-click = "createNewPatient()">{{labels.Create}}</a>
+							<div class = "clear"></div>
+						</div>
+						<div class = "clear"></div>
+					</label>
+				
+					<div class = "page-form col-lg-6">
+						<fieldset class = "col-lg-12">
+							<div>
+								<li>
+									<label for = "selPatient.name" class = "control-label col-4">{{labels.Name}}</label>			
+									<input type = "text" class = "form-control col-8" id = "selPatient.name" ng-model = "selPatient.name" ng-focus = "focus.name"/>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label for = "selPatient.fName" class = "control-label col-4">{{labels.FirstName}}</label>
+									<input type = "text" class = "form-control col-8" id = "selPatient.fName" ng-model = "selPatient.fName" ng-focus = "focus.fName"/>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label for = "selPatient.rrn" class = "control-label col-4">{{labels.RRN}}</label>
+									<input type = "text" class = "form-control col-8" id = "selPatient.rrn" ng-model = "selPatient.rrn" ng-focus = "focus.rrn"/>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label for = "selPatient.socialSecurityNbr" class = "control-label col-4">{{labels.Social_Sec_Number}}</label>	
+									<input type = "text" class = "form-control col-8" id = "selPatient.socialSecurityNbr" ng-model = "selPatient.socialSecurityNbr" ng-focus = "focus.socialSecurityNbr"/>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label for = "selPatient.gender" class = "control-label col-4">{{labels.Gender}}</label>		
+									<div class = "btn-group col-8" id = "selPatient.gender">
+										<label class = "btn btn-default" ng-model = "selPatient.gender" btn-radio = "'M'">{{labels.M}}</label>
+										<label class = "btn btn-default" ng-model = "selPatient.gender" btn-radio = "'F'">{{labels.F}}</label>
+									</div>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label class = "control-label col-4">{{labels.Birthday}}</label>	
+									<p class = "input-group col-8">
+										<input type = "text" ng-model = "selPatient.birthDate" class = "form-control" datepicker-popup = "dd/MM/yyyy" is-open = "opened_selPatient_birthDate" datepicker-options = "dateOptions_selPatient_birthDate" ng-click = "open_selPatient_birthDate($event)"/>
+									</p>
+									<div class = "clear"></div>
+								</li><!--  -->
+							</div>
+						</fieldset>
+						<fieldset class = "col-lg-12">
+							<legend>{{labels.Address}}</legend>
+							<div>
+								<li>
+									<label for = "selPatient.street" class = "control-label col-4">{{labels.Street}}</label>	
+									<input type = "text" class = "form-control col-8" id = "selPatient.street" ng-model = "selPatient.street" ng-focus = "focus.street"/>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label for = "selPatient.zip" class = "control-label col-4">{{labels.Zip}}</label>	
+									<input type = "text" class = "form-control col-8" id = "selPatient.zip" ng-model = "selPatient.zip" ng-focus = "focus.zip"/>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label for = "selPatient.city" class = "control-label col-4">{{labels.City}}</label>	
+									<input type = "text" class = "form-control col-8" id = "selPatient.city" ng-model = "selPatient.city" ng-focus = "focus.city"/>
+									<div class = "clear"></div>
+								</li>
+							</div>
+						</fieldset>
+						<fieldset class = "col-lg-12">
+							<legend>{{labels.Contact_Infomation}}</legend>
+							<div>
+								<li>
+									<label for = "selPatient.tel" class = "control-label col-4">{{labels.Phone}}</label>	
+									<input type = "tel" class = "form-control col-spacing-8" id = "selPatient.tel" ng-model = "selPatient.tel" ng-focus = "focus.tel"/>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label for = "selPatient.gcm" class = "control-label col-4">{{labels.Mobile}}</label>	
+									<input type = "tel" class = "form-control col-8" id = "selPatient.gcm" ng-model = "selPatient.gcm" ng-focus = "focus.gcm"/>
+									<div class = "clear"></div>
+								</li>
+								<li>
+									<label for = "selPatient.email" class = "control-label col-4">{{labels.eMail}}</label>	
+									<input type = "email" class = "form-control col-8" id = "selPatient.email" ng-model = "selPatient.email" ng-focus = "focus.email"/>
+									<div class = "clear"></div>
+								</li>
+							</div>
+						</fieldset>
+						<div class = "clear"></div>
+					</div>
+
+					<div class = "page-form col-lg-6">
+						<fieldset class = "col-lg-12">
+							<legend class = "top-child">{{labels.Clinical_Information}}</legend>
+							<ul class = "list-content">
+								<li ng-repeat = "c in selPatient.clinicals">
+									<input type = "text" value = "{{c.cliDsc}}" readonly/>
+									<a class = "col-control icon-trash" ng-click = "deleteClinical($index)"></a>
+								</li>
+								<li ng-if = "!selPatient.clinicals.length" class = "empty-list">
+									<span>{{labels.Empty_List}}</span>
+								</li>								
+							</ul>
+							<div class = "list-content-edit" ng-show = "view_ClinicalCodes.length">
+								<select ng-model = "newClinical" ng-focus = "focus.newClinical" ng-options = "c as c.cliDsc for c in view_ClinicalCodes track by c.cliCode">
+									<option value = "">{{labels.Select_Clinical_fact}}</option>
+								</select>
+								<a class = "col-control icon-new" ng-click = "addClinical()"></a>
+							</div>
+						</fieldset>
+						<fieldset class = "col-lg-12">
+							<legend>{{labels.Addtional_Remarks}}</legend>
+							<div>
+								<li>
+									<textarea rows = 5 class = "form-control col-lg-12" ng-model = "selPatient.addtionalRemarks" ng-focus = "focus.addtionalRemarks"></textarea>
+									<div class = "clear"></div>
+								</li>
+							</div>
+						</fieldset>
+						<div class = "clear"></div>
+					</div>
+				</div>
+
+				<div class = "page-form col-lg-4">
+					<label class = "form-label">{{labels.Request_Information}}</label>					
+					<fieldset class = "col-lg-12">
+						<div>			
+							<li><!--  -->
+								<label class = "control-label col-4">{{labels.Request_Date}}</label>	
+								<p class = "input-group col-8">
+									<input type = "text" class = "form-control" datepicker-popup = "dd/MM/yyyy" is-open = "opened_selRequest_requestDate" datepicker-options = "dateOptions_selRequest_requestDate" ng-model = "selRequest.requestDate" ng-click = "open_selRequest_requestDate($event)"/>
+								</p>
+								<div class = "clear"></div>
+							</li><!--  -->			
+							<li><!--  -->
+								<label class = "control-label col-4">{{labels.Sample_Date}}</label>	
+								<p class = "input-group col-8">
+									<input type = "text" class = "form-control" datepicker-popup = "dd/MM/yyyy" is-open = "opened_selRequest_sampleDate" datepicker-options = "dateOptions_selRequest_sampleDate" ng-model = "selRequest.sampleDate" ng-click = "open_selRequest_sampleDate($event)"/>
+								</p>
+								<div class = "clear"></div>
+							</li><!--  -->
+
+							<li>
+								<label class = "control-label col-4">{{labels.Urgent}}</label>		
+								<div class = "btn-group col-8">
+									<label class = "btn btn-default" ng-model = "selRequest.urgent" btn-radio = "'Yes'">{{labels.Yes}}</label>
+									<label class = "btn btn-default" ng-model = "selRequest.urgent" btn-radio = "'No'">{{labels.No}}</label>
+								</div>
+								<div class = "clear"></div>
+							</li>
+						</div>
+					</fieldset>	
+					<fieldset class = "col-lg-12">
+						<legend>{{labels.Copies}}</legend>
+						<div>
+							<li>
+								<label class = "control-label col-4">{{labels.Patient}}</label>		
+								<div class = "btn-group col-8">
+									<label class = "btn btn-default" ng-model = "selRequest.copyPatient" btn-radio = "'Yes'">{{labels.Yes}}</label>
+									<label class = "btn btn-default" ng-model = "selRequest.copyPatient" btn-radio = "'No'">{{labels.No}}</label>
+								</div>
+								<div class = "clear"></div>
+							</li>
+						</div>
+
+						<ul class = "list-content">
+							<li ng-repeat = "c in selRequest.contacts">
+								<input type = "text" value = "{{c.conDsc}}" readonly/>
+								<a class = "col-control icon-trash" ng-click = "deleteContact($index)"></a>
+							</li>
+							<li ng-if = "!selRequest.contacts.length" class = "empty-list">
+								<span>{{labels.Empty_List}}</span>
+							</li>								
+						</ul>
+						<div class = "list-content-edit" ng-show = "view_Contacts.length">
+							<select ng-model = "newContact" ng-focus = "focus.newContact" ng-options = "c as c.conDsc for c in view_Contacts track by c.conCode">
+								<option value = "">{{labels.Select_New_Contact}}</option>
+							</select>
+							<a class = "col-control icon-new" ng-click = "addContact()"></a>
+						</div>
+					</fieldset>
+					<div class = "clear"></div>
+				</div>
+			</div>
+
+			<div class = "page-content">
+				<div class = "content-title" data-mobile-only>
+					<i>{{selectedPatient.name}} {{selectedPatient.fName}} - {{selectedPatient.birthDate}}</i>
+				</div>
+				<div class = "page-tab">
+					<tabset><tab ng-repeat = "tab in tabs" heading = "{{tab}}" disabled = "tab.disabled" ng-click = "selectTab(tab)"></tab></tabset>
+				</div>
+				<div class = "column-list"><ul>
+					<li ng-repeat = "item in codeItems">
+						<label class = "part" ng-if = "item.type == 'part'">{{item.description}}</label>
+						<label class = "group" ng-if = "item.type == 'group'">{{item.description}}</label>
+						<label class = "code" ng-if = "item.type == 'code'" ng-class = "{selected: item.isChecked}">
+							<div class = "description" ng-click = "item.isChecked = !item.isChecked">{{item.description}}</div>
+							<div class = "matrix" ng-click = "item.isChecked = !item.isChecked">{{item.matrix}}</div>
+							<div class = "price" ng-class = "{'reimbursed': item.paymentType == 'PAT' || item.finalPaymentType == 'PAT'}" ng-click = "item.finalPaymentType = item.finalPaymentType == 'PAT'? 'MUT': 'PAT'">{{(item.price? item.price: "&nbsp;")}}</div>
+							<div class = "clear"></div>
+						</label>
+					</li>
+				</ul></div>
+			</div>
+		</div>
+	</div>
+</div>

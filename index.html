@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+
+	<title>Digital prescriptions for medical analyses</title>
+
+	<meta charset = "utf-8"/>
+	<meta content = "initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name = "viewport"/>
+
+	<!-- loading lib -->
+	<link href = "./lib/css/bootstrap.min.css" rel = "stylesheet" type = "text/css"/>
+	<link href = "./lib/css/icon.css" rel = "stylesheet" type = "text/css"/>
+
+	<script src = "./lib/js/angular.min.js"></script>
+	<script src = "./lib/js/angular-locale_de-de.js"></script></script>
+	<script src = "./lib/js/angular-route.js"></script>
+	<script src = "./lib/js/angular-animate.min.js"></script>
+	<script src = "./lib/js/angular-touch.min.js"></script>
+	<script src = "./lib/js/ng-infinite-scroll.min.js"></script>
+	<script src = "./lib/js/moment.min.js"></script>
+	<script src = "./lib/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
+	<script src = "./lib/js/jquery-1.9.1.min.js"></script>
+	<script src = "./lib/js/jquery-migrate-1.2.1.js"></script>
+	<script src = "./lib/js/jquery.transform2d.min.js"></script>
+	<!-- end loading lib -->
+
+	<!-- custom -->
+	<link href = "./css/style.css" rel = "stylesheet" type = "text/css"/>
+
+	<script src = "./js/app.js"></script>
+	<script src = "./js/global.js"></script>
+	<script src = "./js/services.js"></script>
+	<script src = "./js/db.js"></script>
+	<script src = "./js/controllers.js"></script>
+	<!-- end custom -->
+
+</head>
+
+<body ng-app = "DPFMA" ng-controller = "DPFMAcontroller" ng-class = "{activedLeftMenu: openLeftMenu}">
+
+	<!-- Header -->
+	<header>
+		<a id = "toggleMenu" ng-show = "SigninUserName" ng-click = "openLeftMenu = !openLeftMenu"></a>
+		<div data-page-title>
+			<span ng-if = "!SigninUserName">{{labels.Digital_prescriptions_for_medical_analyses}}</span>
+			<span data-pc-only ng-if = "SigninUserName">{{labels.Your_digital_assistant}}</span>
+		</div>
+		<div data-user-info ng-if = "SigninUserName">
+			<span><b>{{SigninUserName}}</b> - {{SigninUserOrganization}}</span>
+		</div>
+	</header>
+
+	<div data-left-menu ng-show = "activedMenu != 'signin'">
+		<ul>
+			<li><a href = "#/patients" ng-class = "{'actived': activedMenu == 'patients'}">{{labels.Patient}}</a></li>
+			<li><a href = "#/request" ng-class = "{'actived': activedMenu == 'request'}">{{labels.Request}}</a></li>
+			<li><a href = "#/result" ng-class = "{'actived': activedMenu == 'result'}">{{labels.Result}}</a></li>
+			<li><a href = "#/logistics" ng-class = "{'actived': activedMenu == 'logistics'}">{{labels.Logistics}}</a></li>
+			<li><a href = "#/settings" ng-class = "{'actived': activedMenu == 'settings'}">{{labels.Settings}}</a></li>
+			<li><a href = "" ng-click = "signOut()">{{labels.Sign_Out}}</a></li>
+		</ul>
+	</div>
+
+	<!-- Page view section -->
+	<div id = "mainView" ng-view></div>
+	
+	<!-- Footer -->
+	<footer></footer>
+	
+
+	<!------------------------------------>
+	<!-- Globals -->
+	<div ng-if = "loadingBar"></div>
+
+	<!-- this div is actived when click toggle menu icon of header section, inactived when click this element -->
+	<a data-control-leftmenu data-mobile-only ng-class = "{actived: openLeftMenu}" ng-click = "openLeftMenu = false"></a>
+
+</body>
+</html>
+	

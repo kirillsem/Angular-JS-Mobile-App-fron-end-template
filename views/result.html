@@ -1,0 +1,34 @@
+
+<div id = "view-result" class = "page-container">	
+	<div data-role = "page">
+		<div class = "page-wrapper">
+			<div class = "page-subject">
+				{{labels.Result}}
+			</div>
+			<div class = "page-content">
+				<div class = "page-form col-lg-12">
+					<table class = "data-list">
+						<thead><tr>
+								<th width = "25%">{{labels.Date}}</th>
+								<th width = "60%">{{labels.Patient}}</th>
+								<th width = "15%">{{labels.Action}}</th>
+						</tr></thead>
+						
+						<tbody>
+							<tr><td colspan = 3><div class = "search-bar col-lg-12"><input type = "text" placeholder = "Search" ng-model = "searchProcessData"/></div></td></tr>
+
+							<tr ng-repeat = "p in processData | orderBy: 'date' | filter: searchProcessData | limitTo: itemsPerPage * currentPage | limitTo: itemsPerPage * currentPage < (processData | filter: searchProcessData).length? -itemsPerPage : itemsPerPage - (itemsPerPage * currentPage - (processData | filter: searchProcessData).length)">
+								<td>{{p.date}}</td>
+								<td>{{p.patient}}</td>
+								<td><a href = "" ng-click = "processing(p)">{{p.action}}</a></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class = "pagenation-wrap" ng-show = "(processData | filter: searchProcessData).length > itemsPerPage">
+						<pagination total-items = "(processData | filter: searchProcessData).length" items-per-page = "itemsPerPage" ng-model = "currentPage" max-size = "maxSize" boundary-links = "true" rotate = "false" previous-text = "&lsaquo;" next-text = "&rsaquo;" first-text = "&laquo;" last-text = "&raquo;"></pagination>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
