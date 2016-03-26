@@ -45,7 +45,7 @@
 		<a id = "toggleMenu" ng-show = "SigninUserName" ng-click = "openLeftMenu = !openLeftMenu"></a>
 		<div data-page-title>
 			<span ng-if = "!SigninUserName">{{labels.Digital_prescriptions_for_medical_analyses}}</span>
-			<span data-pc-only ng-if = "SigninUserName">{{labels.Your_digital_assistant}}</span>
+			<span data-pc-only ng-if =   "SigninUserName">{{labels.Your_digital_assistant}}</span>
 		</div>
 		<div data-user-info ng-if = "SigninUserName">
 			<span><b>{{SigninUserName}}</b> - {{SigninUserOrganization}}</span>
@@ -72,7 +72,7 @@
 
 	<!------------------------------------>
 	<!-- Globals -->
-	<div ng-if = "loadingBar"></div>
+	<div  ng-if = "loadingBar"></div>
 
 	<!-- this div is actived when click toggle menu icon of header section, inactived when click this element -->
 	<a data-control-leftmenu data-mobile-only ng-class = "{actived: openLeftMenu}" ng-click = "openLeftMenu = false"></a>
